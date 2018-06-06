@@ -696,7 +696,8 @@ i#closebtn {
   letter-spacing: 1.1px;
   text-align: center;
   color: #6e6e6e;
-  margin-top: 10%;
+  margin-top: 6%;
+  padding: 30px;
 }
 
 .__topt1{
@@ -706,7 +707,7 @@ i#closebtn {
   letter-spacing: 1.1px;
   text-align: center;
   color: #6e6e6e;
-  margin-top: 5%;
+  padding: 20px;
 }
 
 .__art{
@@ -733,6 +734,10 @@ i#closebtn {
   padding: 10px;
 }
 
+.__regt{
+  margin-top: 37px;
+}
+
 .__vcimg{
   width: 890px;
     height: 366px;
@@ -754,6 +759,122 @@ i#closebtn {
   border-radius: 3px;
   box-shadow: 0 0 4px 2px rgba(225, 225, 225, 0.5);
   border: solid 11px #ffffff;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.59), #000000);
+  transition:all 0.3s ease;
+  overflow: hidden;
+}
+
+.__vcard .__vcimg{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  opacity:0.5;
+}
+
+.__vcard .__vcimg:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity:1;
+  color: #333333 !important;
+}
+
+.__vcard .__vcimg1{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  opacity:0.5;
+}
+
+.__vcard .__vcimg1:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity:1;
+}
+
+.__vcardp{
+  position: absolute;
+    bottom: 20px;
+    font-family: AvenirLTStd-Black;
+    font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    padding: 28px;
+}
+
+.__vcardp span{
+  color: #efce4a;
+}
+
+.__vf{
+  position: absolute;
+    bottom: 20px;
+    margin:0 auto;
+    width: 100%;
+}
+
+.__vfp{
+  font-family: AvenirLTStd-Black;
+    font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.__vfp span{
+  color: #efce4a;
+}
+
+.__vfbtn{
+  /*width: 138px;
+  height: 47px;*/
+  border-radius: 3px;
+  background-color: #f0842d;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  color: #ffffff !important;
+  padding: 9px 16px;
+}
+
+.__vft{
+  margin-top: 30px;
+}
+
+.__tradeal{
+  position: absolute;
+  top: 11px;
+  padding: 13px;
+  width: 104px;
+  height: 69px;
+  border-radius: 3px;
+  background-color: #359ad1;
+  font-family: AvenirLTStd-Black;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.__bidn{
+  position: absolute;
+  top: 11px;
+  padding: 13px;
+  width: 104px;
+  height: 69px;
+  border-radius: 3px;
+  background-color: #d0021b;
+  font-family: AvenirLTStd-Black;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .__cdl{
@@ -784,6 +905,8 @@ i#closebtn {
     padding: 90px;
 }
 
+
+/*price slider*/
 #price-slider{
   width:300px;
   height:80px;
@@ -823,3 +946,56 @@ i#closebtn {
 }
 
 
+.__foter{
+  background-color: #f6f6f6;
+  border: solid 1px #e6e6e6;
+  padding: 39px 128px;
+  margin-top: 3%;
+}
+
+.__fh{
+font-family: AvenirLTStd-Heavy;
+font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 2.7px;
+  color: #1a72e6;
+}
+
+.__fotr{
+  font-family: AvenirLTStd-Heavy;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 2.1px;
+  color: #777777 !important;
+}
+
+.__fotr:hover{
+  color: #333 !important;
+}
+
+.__nesbtn{
+  background-color: #f0842d;
+  color: #ffffff !important;
+}
+
+.__fod{
+  padding: 0 70px;
+}
+
+.__fotcop{
+  font-family: AvenirLTStd-Roman;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #777777;
+}
+
+.__fosocai{
+  float: right;
+}
+
+.__fotsoh{
+  font-size: 20px;
+  color: #979797;
+  padding: 10px
+}
