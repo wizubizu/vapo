@@ -44,7 +44,30 @@
 
 @media screen and (max-width: 1024px){
 
-  
+  .__navm {
+    position: unset;
+    width: 100%;
+    margin: 0;
+   padding: 15px 0;
+  }
+
+  .__vflotimg {
+    padding: 0 40px;
+  }
+
+  .__vflotimg1 {
+    padding: 0 40px;
+  }
+
+  .__navsbtn {
+    width: 141px;
+  }
+
+  .__megamenu {
+    width: 1038px;
+    margin-left: -51px;
+    padding: 0px;
+  }
 
   
 
@@ -67,7 +90,58 @@
 
 @media screen and (max-width: 800px){
 
-	
+	.__navw {
+    width: 100%;
+  }
+
+  .__vcimg {
+    width: 100%;
+    height: 266px;
+  }
+  .__vcimg1 {
+    width: 100%;
+    height: 266px;
+  }
+
+  .__mdbg {
+    padding: 29px;
+  }
+
+  .__mdbg1 {
+    padding: 29px;
+  }
+
+  .__navm {
+    position: unset;
+    width: 100%;
+    margin: 0;
+  }
+
+  .__vflotimg {
+    padding: 0 8px;
+  }
+
+  .__vflotimg1 {
+    padding: 0 8px;
+  }
+
+
+  .__dropt {
+  width: 100%;
+    height: 38px;
+  }
+
+  .__navsbtn {
+    width: 100%;
+    height: 38px;
+    padding-top: 9px;
+  }
+
+  .__megamenu {
+    width: 784px;
+    margin-left: -34px;
+    padding: 2px;
+  }
   
 
 
@@ -83,7 +157,112 @@
 
   @media screen and (max-width: 560px){
 
-  	
+  .__navw {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .__navin {
+    font-size: 27px;
+  }
+
+  .__vcimg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__vcimg1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__cdl {
+    padding-left: 15px;
+  }
+
+  .__cdr {
+    padding-left: 15px;
+  }
+
+  .__mdbg {
+    padding: 17px;
+  }
+
+  .__mdbg1 {
+    padding: 17px;
+  }
+
+  .__art {
+    font-size: 30px
+  }
+
+  .__regbtn {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .__navfu1 {
+    margin:0 auto;
+    width: 100%;
+  }
+
+  .__navfu {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .__navbtn {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .__navm {
+    position: absolute;
+    bottom: -522px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .__vflotimg {
+    padding: 0;
+  }
+
+  .__vflotimg1 {
+    padding: 0;
+    border-right: 1px solid #d4d4d4;
+  }
+
+  .__imgs {
+    margin-left: 38px;
+  }
+
+  .__topt {
+    margin-top: 30%;
+  }
+
+  .__bottomMenu {
+    width: 100%;
+    height: 130px;
+  }
+
+  .__navsbtn {
+    width: 100%;
+    height: 100%;
+    margin-top: 1px;
+    padding-top: 8px;
+  }
+
+  .__navdf {
+    margin-top: 7px;
+  }
+
+
+  .__megamenu {
+    width: 332px;
+    margin-left: -14px;
+    padding: 3px;
+  }
+
 
 }
 
