@@ -210,7 +210,7 @@ a:focus, a:hover {
 
 
 .clearfix{
-  clear: all;
+  clear: both;
 }
 
 
@@ -482,6 +482,11 @@ i#closebtn {
   transition: all 0.4s ease-in;
 }
 
+.nav .__navfdr>a, .nav .__navfdr>a:focus, .nav .__navfdr>a:hover{
+  background: transparent !important;
+  color: #ffffff !important;
+}
+
 .__navel{
   background-color: transparent;
 }
@@ -665,14 +670,14 @@ i#closebtn {
 
 .__navm{
   position: absolute;
-    bottom: -175px;
+    bottom: -181px;
   width: 945px;
   margin: 0 0 0 188px;
   border-radius: 4px;
-  box-shadow: 0 0 2px 4px rgba(237, 237, 237, 0.5);
-  background-color: #ffffff;
-  border: solid 1px #f5f5f5;
-  padding: 20px 0;
+      box-shadow: 0px 11px 20px 0px rgba(237, 237, 237, 0.5);
+    background-color: #ffffff;
+    border: solid 1px #f5f5f5;
+  padding: 30px 0;
 }
 
 .__imgs{
@@ -696,7 +701,7 @@ i#closebtn {
   letter-spacing: 1.1px;
   text-align: center;
   color: #6e6e6e;
-  margin-top: 6%;
+  margin-top: 8%;
   padding: 30px;
 }
 
@@ -738,11 +743,11 @@ i#closebtn {
   margin-top: 37px;
 }
 
-.__vcimg{
+.__vcimg img{
   width: 890px;
     height: 366px;
 }
-.__vcimg1{
+.__vcimg1 img{
   width: 426px;
     height: 366px;
 }
@@ -755,14 +760,37 @@ i#closebtn {
   padding: 0 30px;
 }
 
-.__vcard{
-  border-radius: 3px;
-  box-shadow: 0 0 4px 2px rgba(225, 225, 225, 0.5);
-  border: solid 11px #ffffff;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.59), #000000);
-  transition:all 0.3s ease;
-  overflow: hidden;
+.__vcard {
+    margin: 3%;
+    /* border-radius: 3px; */
+    /* box-shadow: 0 0 4px 2px rgba(225, 225, 225, 0.5); */
+    /* border: solid 11px #e3e3e3; */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.59), #000000);
+    transition: all 0.3s ease;
+    overflow: hidden;
 }
+
+.__vcard1 {
+    margin: 6% 6% 6% 0;
+    /* border-radius: 3px; */
+    /* box-shadow: 0 0 4px 2px rgba(225, 225, 225, 0.5); */
+    /* border: solid 11px #e3e3e3; */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.59), #000000);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.__vcard2 {
+    margin: 6% 0 6% 6%;
+    /* border-radius: 3px; */
+    /* box-shadow: 0 0 4px 2px rgba(225, 225, 225, 0.5); */
+    /* border: solid 11px #e3e3e3; */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.59), #000000);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+
 
 .__vcard .__vcimg{
   -webkit-transform: scale(1);
@@ -779,7 +807,7 @@ i#closebtn {
   color: #333333 !important;
 }
 
-.__vcard .__vcimg1{
+.__vcard1 .__vcimg1{
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
@@ -787,7 +815,21 @@ i#closebtn {
   opacity:0.5;
 }
 
-.__vcard .__vcimg1:hover{
+.__vcard1 .__vcimg1:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity:1;
+}
+
+.__vcard2 .__vcimg1{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  opacity:0.5;
+}
+
+.__vcard2 .__vcimg1:hover{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   opacity:1;
@@ -811,7 +853,7 @@ i#closebtn {
 
 .__vf{
   position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     margin:0 auto;
     width: 100%;
 }
@@ -844,10 +886,13 @@ i#closebtn {
 .__vft{
   margin-top: 30px;
 }
+.__vftt{
+  margin-top: 30px;
+}
 
 .__tradeal{
   position: absolute;
-  top: 11px;
+  top: 27px;
   padding: 13px;
   width: 104px;
   height: 69px;
@@ -863,7 +908,7 @@ i#closebtn {
 
 .__bidn{
   position: absolute;
-  top: 11px;
+  top: 27px;
   padding: 13px;
   width: 104px;
   height: 69px;

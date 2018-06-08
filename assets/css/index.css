@@ -6,7 +6,19 @@
 
 @media screen and (min-width: 1440px){
    
-   
+  .__vcimg img {
+    width: 907px;
+  }
+
+  .__vcimg1 img {
+    width: 446px;
+  }
+
+  .__navm {
+    bottom: -269px;
+    margin: 0 0 0 241px;
+    padding: 20px 0;
+  }
 
 
 }
@@ -28,9 +40,12 @@
 ==================================================================*/
 
 
-@media screen and (min-width: 1220px){
+@media screen and (max-width: 1220px){
   
-
+  .__navm {
+    bottom: -243px;
+    margin: 0px 0 0 159px;
+   }
 
 
 
@@ -69,6 +84,31 @@
     padding: 0px;
   }
 
+  .__vfbtn {
+    padding: 9px 8px;
+  }
+
+  .__vcimg img {
+    height: 289px;
+  }
+
+  .__vcimg1 img {
+    height: 289px;
+  }
+
+  .__tradeal {
+    top: 21px;
+  }
+
+  .__bidn {
+    position: absolute;
+    top: 21px;
+  }
+
+  .__foter {
+    padding: 39px 93px;
+  }
+
   
 
 }
@@ -94,15 +134,7 @@
     width: 100%;
   }
 
-  .__vcimg {
-    width: 100%;
-    height: 210px;
-  }
-  .__vcimg1 {
-    width: 100%;
-    height: 210px;
-  }
-
+  
   .__mdbg {
     padding: 29px;
   }
@@ -152,9 +184,33 @@
     padding: 14px;
   }
 
+  .__vcimg img {
+    width: 890px;
+    height: 240px;  
+  }
+
+  .__vcimg1 img {
+    width: 426px;
+    height: 240px;
+  }
+
+  .__tradeal {
+    top: 16px;
+  }
+
+  .__bidn {
+    top: 16px;
+  }
+
+  
   .__vft {
     width: 95px;
     margin-left: -35px;
+  }
+
+  .__vftt {
+    width: 95px;
+    margin-left: 58px;
   }
 
   .__vfbtn {
@@ -198,15 +254,7 @@
     font-size: 27px;
   }
 
-  .__vcimg {
-    width: 100%;
-    height: 100%;
-  }
-
-  .__vcimg1 {
-    width: 100%;
-    height: 100%;
-  }
+ 
 
   .__cdl {
     padding-left: 15px;
@@ -302,11 +350,6 @@
     padding: 10px;
   }
 
-  /*.__tradeal {
-     padding: 4px 20px;
-    font-size: 14px;
-  }*/
-
   .__vf {
     bottom: 0px;
     width: 330px;
@@ -326,9 +369,47 @@
 }
 
 .__vcard {
-  width: 323px;
-    height: 214px;
+    margin: 3% 1% 3% 1%;
 }
+
+.__vcard1 {
+    margin: 6% 0% 6% 0%;
+  }
+
+  .__vcard2 {
+    margin: 6% 5% 6% 1%;
+  }
+
+  .__vcimg img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .__vcimg1 img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .__tradeal {
+    position: absolute;
+    top: 0px;
+  }
+
+  .__bidn {
+    position: absolute;
+    top: 0px;
+  }
+
+  .__vft {
+    width: 95px;
+    margin-left: -9px;
+  }
+
+.__vftt {
+    width: 95px;
+    margin-left: -3px;
+  }
+
 
 .__vfbtn {
     font-size: 12px;
