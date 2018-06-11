@@ -1044,3 +1044,204 @@ font-size: 18px;
   color: #979797;
   padding: 10px
 }
+
+
+.__logbg{
+  background-image: url(../img/sign.png);
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0; 
+}
+
+.__autl{
+  text-align: center;
+}
+
+.__autl img{
+  width: 150px;
+}
+
+.__lfbd{
+  margin:0 auto;
+  width: 693px;
+  padding: 0 0 43px;
+  /*height: 474px;*/
+  border-radius: 5px;
+  box-shadow: 0 0 4px 3px rgba(245, 245, 245, 0.5);
+  background-color: #ffffff;
+  border: solid 1px #e4e4e4;
+}
+
+.__lfori{
+  margin: 0 auto;
+    width: 502px;
+}
+
+.__logi{
+  font-family: AvenirLTStd-Heavy;
+  letter-spacing: 0.7px;
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #3a559f;
+}
+.__lform{
+  font-family: AvenirLTStd-Book;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  color: #454545;
+}
+
+.__loin{
+  height: 45px;
+  border-radius: 3px;
+  background-color: #f7fbff;
+  border: solid 1px #1a72e6;
+}
+
+.__lchek{
+  font-family: AvenirLTStd-Book;
+  letter-spacing: 0.4px;
+  color: #595959;
+}
+.__lchek1{
+  font-family: AvenirLTStd-Book;
+  letter-spacing: 0.4px;
+  color: #595959;
+  float: right;
+  margin-top: 10px;
+}
+
+.__lfbtn{
+  font-family: AvenirLTStd-Medium;
+  width: 502px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #f0842d;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  transition: all 0.4s ease-in;
+}
+
+.__lfbtn:hover{
+  background-color: #c76f28;
+  color: #ffffff;
+}
+
+.__lgsoc{
+  margin-top: 25%;
+}
+
+.__lsp{
+  background-color: #ffffff;
+  border: 1px solid #4a90e2;
+  padding: 11px 4px;
+  margin-right: -3px;
+}
+.__lsp1{
+  font-family: AvenirLTStd-Medium;
+  background-color: #4a90e2;
+  padding: 10px 23px 11px;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.__lsp2{
+  background-color: #3a559f;
+  border: 1px solid #3a559f;
+  padding: 12px 4px;
+    margin-right: 0px;
+}
+.__lsp3{
+  font-family: AvenirLTStd-Medium;
+  border: 1px solid #3a559f;
+  padding: 10px 14px 11px;
+  letter-spacing: 0.3px;
+  color: #3a559f;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.__lgsoc img{
+  width: 30px;
+}
+
+.__show{
+  float: right;
+  margin-top: -36px;
+  cursor: pointer;
+}
+
+.__logm{
+  font-family: AvenirLTStd-Medium;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #1a72e6 !important;
+}
+
+.__useimg{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.__uselog{
+  font-family: AvenirLTStd-Medium;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #979797;
+}
+
+.__uselog span{
+  color: #1a72e6;
+}
+
+
+.__usecon{
+      padding: 25px 0;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 2px #3ba9c4;
+}
+
+.__usep{
+  font-family: AvenirLTStd-Medium;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #6b6b6b;
+  margin-top: 10px;
+}
+
+.__usebtn{
+  font-family: AvenirLTStd-Black;
+  width: 189px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: #f0842d;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #ffffff !important;
+transition: all 0.4s ease-in;
+}
+
+.__usebtn:hover{
+  background-color: #c76f28;
+  color: #ffffff;
+}
+
+
+

@@ -109,6 +109,7 @@
     padding: 39px 93px;
   }
 
+ 
   
 
 }
@@ -405,16 +406,57 @@
     margin-left: -9px;
   }
 
-.__vftt {
+  .__vftt {
     width: 95px;
     margin-left: -3px;
   }
 
 
-.__vfbtn {
-    font-size: 12px;
-    padding: 9px 12px;
-}
+  .__vfbtn {
+      font-size: 12px;
+      padding: 9px 12px;
+  }
+
+  .__logbg {
+    padding: 20px 0;
+  }
+
+  .__lform {
+    font-size: 14px;
+  }
+
+  .__lfbd {
+    height: 100%;
+    width: 100%;
+  }
+
+  .__lfori {
+      margin: 0 auto;
+      width: 280px;
+  }
+
+  .__lfbtn {
+    width: 279px;
+  }
+
+  .__lgsoc {
+    margin-top: 7%;
+    text-align: center;
+  }
+
+  .__lsp {
+     margin-right: -5px;
+  }
+
+  .__lsp1 {
+    padding: 12px 25px 12px;
+    font-size: 14px;
+  }
+
+  .__lsp3 {
+    padding: 12px 14px 12px;
+    font-size: 14px;
+  }
 
 
 }

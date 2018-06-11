@@ -134,12 +134,23 @@ var appz = {
 
     window.addEventListener("scroll", myScrollFunc);
 
+    
 
 
 
+// preview and hide password
+    $("#showPassword").click(function(){
+      var foo = $(this).prev().attr("type");
+      if(foo == "password"){
+        $(this).prev().attr("type", "text");
+      } else {
+        $(this).prev().attr("type", "password");
+      }
+    });
 
 
 
+// register form validation
 
     function checkPass()
 {
@@ -166,12 +177,12 @@ var appz = {
         //notify the user.
         pass2.style.backgroundColor = badColor;
         message.style.color = badColor;
-        message.innerHTML = "Passwords Do Not Match!"
+        message.innerHTML = "Password Do Not Match!"
     }
 } 
 
 
-// joinkowa form validation
+
     function validatephone(phone) 
         {
             var maintainplus = '';
@@ -189,6 +200,17 @@ var appz = {
         function Validate(txt) {
             txt.value = txt.value.replace(/[^a-zA-Z-'\n\r.]+/g, '');
         }
+
+        // validates password only
+        function pValidate(pass1) {
+            pass1.value = pass1.value.replace(/[^a-zA-Z0-9-]+/g, '');
+        }
+
+        // validates password only
+        function pValidate(pass2) {
+            pass2.value = pass2.value.replace(/[^a-zA-Z0-9-]+/g, '');
+        }
+
     // validate email
     function email_validate(email)
         {
@@ -202,39 +224,203 @@ var appz = {
             {
                 document.getElementById("status").innerHTML = "<span class='valid'>Thanks, you have entered a valid Email address!</span>"; 
             }
-        }   
-    // validate date of birth
-    function dob_validate(dob)
-        {
-            var regDOB = /^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/;
+       
+        };
 
-            if(regDOB.test(dob) == false)
-            {
-                document.getElementById("statusDOB").innerHTML  = "<span class='warning'>DOB is only used to verify your age.</span>";
-            }
-            else
-            {
-                document.getElementById("statusDOB").innerHTML  = "<span class='valid'>Thanks, you have entered a valid DOB!</span>";   
-            }
+
+
+        // validate form
+function validates() {
+
+    // Academy validation
+
+     // div 1
+
+    if (document.myform.AName.value == "") {
+        $("#First-Div").css("display", "block");
+        $("#Second-Div").css("display", "none");
+        alert("Please provide your Agency Name");
+        document.myform.AName.focus();
+
+        return false;
+    }
+
+    
+
+    if (document.myform.email.value == "") {
+        $("#First-Div").css("display", "block");
+        $("#Second-Div").css("display", "none");
+        alert("Please provide your email");
+        document.myform.email.focus();
+        return false;
+    }
+    
+
+    if (document.myform.phone.value == "") {
+        $("#First-Div").css("display", "block");
+        $("#Second-Div").css("display", "none");
+        alert("Please provide your phone Number");
+        document.myform.phone.focus();
+        return false;
+    }
+
+    if (document.myform.code.value == "") {
+        $("#First-Div").css("display", "block");
+        $("#Second-Div").css("display", "none");
+        alert("Please provide your agency code");
+        document.myform.code.focus();
+        return false;
+    }
+
+    if (document.myform.country.value == "-1") {
+        $("#First-Div").css("display", "block");
+        $("#Second-Div").css("display", "none");
+        alert("Please select your country");
+        document.myform.country.focus();
+        return false;
+    }
+
+    if (document.myform.state.value == "") {
+        $("#First-Div").css("display", "block");
+        $("#Second-Div").css("display", "none");
+        alert("Please select your state");
+        document.myform.state.focus();
+        return false;
+    }
+
+    // div 2
+
+    if (document.myform.fullName.value == "") {
+        $("#First-Div").css("display", "none");
+        $("#Second-Div").css("display", "block");
+        alert("Please provide your first name, last name");
+        document.myform.fullName.focus();
+        return false;
+    }
+
+    if (document.myform.pass1.value == "") {
+        $("#First-Div").css("display", "none");
+        $("#Second-Div").css("display", "block");
+        alert("Please enter your password ");
+        document.myform.pass1.focus();
+        return false;
+    }
+
+    
+
+    if (document.myform.pass2.value == "") {
+        $("#First-Div").css("display", "none");
+        $("#Second-Div").css("display", "block");
+        alert("Please re-enter your password");
+        document.myform.pass2.focus();
+        return false;
+    }
+
+    // if (document.myform.github.value == "") {
+    //     $("#First-Div").css("display", "none");
+    //     $("#Second-Div").css("display", "block");
+    //     alert("Please provide your github link");
+    //     document.myform.github.focus();
+    //     return false;
+    // }
+
+    if (document.myform.reason.value == "") {
+        $("#First-Div").css("display", "none");
+        $("#Second-Div").css("display", "block");
+        alert("Please tell us reasons why you should be selected");
+        document.myform.reason.focus();
+        return false;
+    }
+
+    if (document.myform.schedule.value == "-1") {
+        $("#First-Div").css("display", "none");
+        $("#Second-Div").css("display", "block");
+        alert("Please select your schedule");
+        document.myform.schedule.focus();
+        return false;
+    }
+    // return(true);
+}
+
+
+function validateEmail() {
+    var emailID = document.myform.email.value;
+    atpos = emailID.indexOf("@");
+    dotpos = emailID.indexOf(".");
+
+    if (atpos < 1 || ( dotpos - atpos < 2)) {
+        alert("pls enter correct email ID")
+        document.myform.email.focus();
+        return false;
+    }
+    // return( true);
+}
+
+// end
+
+
+
+
+
+function showNextForm() {
+        $("#First-Div").css("display", "none");
+        $("#Second-Div").css("display", "block");
+    };
+
+    function showNextForm1() {
+        $("#Second-Div").css("display", "none");
+        $("#Third-Div").css("display", "block");
+    };
+
+    function showNextForm2() {
+        $("#Third-Div").css("display", "none");
+        $("#Five-Div").css("display", "block");
+    };
+
+    function showNextForm3() {
+        $("#Forth-Div").css("display", "none");
+        $("#Five-Div").css("display", "block");
+    };
+
+    // previous 
+    function showPrevForm() {
+        $("#Second-Div").css("display", "none");
+        $("#First-Div").css("display", "block");
+        $("#Forth-Div").css("display", "none");
+    };
+
+    function showPrevForm1() {
+        $('#Third-Div').css("display", "none");
+        $('#Second-Div').css("display", "block");
+        $('#First-Div').css("display", "none");
+        $("#Five-Div").css("display", "none");
+        $("#Forth-Div").css("display", "none");
+    };
+
+    function showPrevForm2() {
+        $("#Forth-Div").css("display", "block");
+        $("#Third-Div").css("display", "none");
+         $("#Five-Div").css("display", "none");
+    };
+
+
+    function showPrevForm3() {
+        var ownerType = $('.__selectind').val();
+        if (ownerType === 'developer') {
+            $('#First-Div').css("display", "none");
+            $('#Second-Div').css("display", "none");
+            $('#Forth-Div').css("display", "none");
+            $("#Five-Div").css("display", "none");
+            $("#Third-Div").css("display", "block");
+        }else if(ownerType === 'designer'){
+            $('#Third-Div').css("display", "none");
+            $('#Second-Div').css("display", "none");
+            $('#First-Div').css("display", "none");
+            $("#Five-Div").css("display", "none");
+            $("#Forth-Div").css("display", "block");
         }
-    // validate address
-    function add_validate(address)
-        {
-            var regAdd = /^(?=.*\d)[a-zA-Z\s\d\/]+$/;
-
-            if(regAdd.test(address) == false)
-            {
-                document.getElementById("statusAdd").innerHTML  = "<span class='warning'>Address is not valid yet.</span>";
-            }
-            else
-            {
-            document.getElementById("statusAdd").innerHTML  = "<span class='valid'>Thanks, Address looks valid!</span>";    
-            }
-        }
-
-
-    document.getElementById("field_terms").setCustomValidity("Please indicate that you accept the Terms and Conditions");
-
+    };
+    
 
 
 
