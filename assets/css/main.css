@@ -1098,7 +1098,11 @@ font-size: 18px;
   height: 45px;
   border-radius: 3px;
   background-color: #f7fbff;
-  border: solid 1px #1a72e6;
+  /*border: solid 1px #1a72e6;*/
+}
+
+.__loin:focus {
+    border:1px solid #1a72e6 !important;
 }
 
 .__lchek{
@@ -1112,6 +1116,11 @@ font-size: 18px;
   color: #595959;
   float: right;
   margin-top: 10px;
+}
+
+.__lchek1:hover{
+  text-decoration: underline;
+  color: #1a72e6;
 }
 
 .__lfbtn{
@@ -1239,6 +1248,24 @@ transition: all 0.4s ease-in;
 }
 
 .__usebtn:hover{
+  background-color: #c76f28;
+  color: #ffffff;
+}
+
+.__lagbtn {
+  font-family: AvenirLTStd-Medium;
+  width: 249px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #f0842d;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  transition: all 0.4s ease-in;
+}
+
+.__lagbtn:hover {
   background-color: #c76f28;
   color: #ffffff;
 }
