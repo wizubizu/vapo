@@ -134,6 +134,14 @@ var appz = {
 
     window.addEventListener("scroll", myScrollFunc);
 
+
+// dashboard show and hide
+    $('#openSidebar').click(function(){
+        $('.leftbar').addClass('biger');
+        });
+        $('#closebtn').click(function(){
+        $('.leftbar').removeClass('biger');
+    });
     
 
 

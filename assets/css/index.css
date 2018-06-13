@@ -1,3 +1,195 @@
+/*=================================================================
+  Dashboard Css
+==================================================================*/
+
+@media screen and (max-width: 1024px){
+  .leftbar {
+  padding-top: 10%;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 14px 29px;
+    margin-left: 20%;
+  }
+
+  .__dasepl {
+    margin: 5% 0 0 63px;
+    width: 845px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  
+  .leftbar{
+    transform: translate(-300px);
+    top: 0%;
+  }
+  #openSidebar{
+    display: block !important;
+    cursor: pointer !important;
+    margin-top: 17px;
+  }
+  img#closebtn {
+     display: block;
+     top: 3%;
+    left: 5%;
+  }
+
+  .__dast {
+    margin-top: 20%;
+  }
+
+
+  .__dasepl {
+    margin: 7% 0 0 -15px;
+    width: 100%;
+  }
+
+  .__dasepl1 {
+    margin: 45px 8px 9px -19px;
+    width: 100%;
+  }
+
+  .__dascard {
+    width: 100%;
+  }
+
+  .__dashnav{
+    z-index: 1;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 14px 29px;
+    margin-left: 24%;
+  }
+
+  .__dascard p:nth-child(2) {
+    font-size: 14px;
+  }
+
+  .__dascard p:nth-child(3) {
+    font-size: 20px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 568px) {
+
+    .__dast{
+    margin-top: 30%;
+  }
+
+  .__dashnav{
+    z-index: 1;
+    height: 56px;
+  }
+  
+  .biger{
+    width: 80% ;
+    transform: translate(0px) !important;
+    z-index:1  !important;
+    
+  }
+
+  .leftbar{
+    transform: translate(-1000px);
+    top: 0%;
+  }
+  #openSidebar{
+    display: block !important;
+    cursor: pointer !important;
+  }
+
+  /*for image close*/
+  img#closebtn {
+     display: block;
+     top: 3%;
+    left: 5%;
+  }
+
+  i#closebtn {
+     display: block;
+     top: 2%;
+    left: 5%;
+  }
+
+  #openSidebar {
+    margin-top: 2px;
+  }
+
+  .maianer {
+      padding: 10px 20px;
+  }
+  .mr-125 { right:125px !important; }
+
+
+  .__dasepl {
+    width: 100%;
+    margin: 20% 0 10% !important;
+  }
+
+  .__dasepl1 {
+    margin: 0;
+    width: 100%;
+  }
+
+  .__dascard {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .__dasepl span:nth-child(3) {
+    padding: 4px;
+  }
+
+  .__dassc {
+    margin-bottom: 10px;
+  }
+
+  .__logo {
+    width: 80px;
+    margin-top: -10px;
+    margin-left: 48px;
+  }
+
+  .navbar-toggle {
+    /* border: 2px solid #FFFFFF; */
+    color: #ffffff;
+    background: #f0842d;
+  }
+
+  .__dascard p:nth-child(2) {
+    font-size: 10px;
+    margin-bottom: 0px;
+    padding: 3px 10px;
+  }
+  .__dascard p:nth-child(3) {
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding: 3px 10px 10px;
+  }
+
+
+}
+
+
+/*=================================================================
+  Dashboard Css end
+==================================================================*/
+
+
+
+
+
+
+
 
 /*=================================================================
   @media screen 1440px
