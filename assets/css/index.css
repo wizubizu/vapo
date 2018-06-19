@@ -2,6 +2,51 @@
   Dashboard Css
 ==================================================================*/
 
+@media screen and (min-width: 1440px){
+
+  .__dasepl {
+    margin: 5% 0 0 65px;
+    width: 870px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 23%;
+  }
+
+}
+
+@media screen and (max-width: 1220px){
+  .__dasepl {
+    margin: 5% 0 0 72px;
+    width: 865px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 22%;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 70px;
+    width: 869px;
+  }
+
+  .__addag {
+    margin: 45px 8px 9px 70px;
+    width: 869px;
+  }
+
+  .__dasempl {
+    margin: 45px 8px 9px 76px;
+    width: 865px;
+  }
+
+  .bigers {
+    width: 58%;
+    margin-top: 0%;
+    margin-left: 227px;
+  }
+}
+
 @media screen and (max-width: 1024px){
   .leftbar {
   padding-top: 10%;
@@ -9,17 +54,71 @@
 
   .__dasepl span:nth-child(1) {
     padding: 14px 29px;
-    margin-left: 20%;
+    margin-left: 5%;
   }
 
   .__dasepl {
-    margin: 5% 0 0 63px;
-    width: 845px;
+    margin: 5% 0px 0px 87px;
+    /*width: 805px;*/
+    width: 727px;
   }
+
+  .__dasepl1 {
+    margin: 45px 8px 9px 92px;
+    width: 723px;
+  }
+
+  .__dascard {
+    width: 100%;
+  }
+
+  .__dasempl {
+      margin: 45px 0px 9px 91px;
+    width: 707px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 89px;
+    width: 726px;
+  }
+  .__addag {
+    margin: 45px 8px 9px 89px;
+    width: 726px;
+  }
+
+  .bigers {
+    width: 67%;
+    margin-top: 3%;
+    margin-left: 139px;
+  }
+
+
 }
 
 @media screen and (max-width: 992px) {
   
+  
+  .__dasepl {
+      margin: 5% 0px 0px 87px;
+      width: 712px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 89px;
+    width: 709px;
+  }
+  .__addag {
+    margin: 45px 8px 9px 89px;
+    width: 709px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 3%;
+  }
+
+}
+
+@media screen and (max-width: 800px){
   .leftbar{
     transform: translate(-300px);
     top: 0%;
@@ -36,17 +135,17 @@
   }
 
   .__dast {
-    margin-top: 20%;
+    margin-top: 0%;
   }
 
 
   .__dasepl {
-    margin: 7% 0 0 -15px;
+    margin: 7% 0 0 0;
     width: 100%;
   }
 
   .__dasepl1 {
-    margin: 45px 8px 9px -19px;
+    margin: 45px 8px 9px 0;
     width: 100%;
   }
 
@@ -71,6 +170,26 @@
     font-size: 20px;
   }
 
+  .__dasempl {
+    margin: 45px 8px 9px 0px;
+    width: 736px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 0px;
+    width: 100%;
+  }
+  .__addag {
+    margin: 45px 8px 9px 0px;
+    width: 100%;
+  }
+
+  .bigers {
+    width: 66%;
+    margin-top: 0%;
+    margin-left: 148px;
+  }
+
 
 }
 
@@ -78,7 +197,7 @@
 @media screen and (max-width: 568px) {
 
     .__dast{
-    margin-top: 30%;
+    margin-top: 10%;
   }
 
   .__dashnav{
@@ -123,6 +242,24 @@
       padding: 10px 20px;
   }
   .mr-125 { right:125px !important; }
+
+
+  /*right slider side*/
+  .bigers {
+    width: 82%;
+    margin-top: 0%;
+    margin-left: 57px;
+  }
+
+  img#rightclosebtns {
+    margin-left: 233px;
+  }
+
+/*end*/
+
+  .__profimg {
+    margin-left: 77px;
+  }
 
 
   .__dasepl {
@@ -174,6 +311,33 @@
     font-size: 15px;
     margin-bottom: 0px;
     padding: 3px 10px 10px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 0px;
+    width: 100%;
+  }
+  .__addag {
+    margin: 45px 8px 9px 0px;
+    width: 100%;
+  }
+
+  .__pfin {
+    padding: 20px 10px;
+  }
+
+  .__pfpa {
+    padding: 10px 27px;
+  }
+
+  .__prof {
+    padding: 12px 11px;
+  }
+
+  .__setp {
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    padding: 20px 9px;
   }
 
 
@@ -239,6 +403,11 @@
     margin: 0px 0 0 159px;
    }
 
+  .__msgin {
+    margin: 20px 0px 20px 57px;
+    width: 900px;
+  }
+
 
 
 }
@@ -301,6 +470,39 @@
     padding: 39px 93px;
   }
 
+  .__msgin {
+    margin: 20px 0px 20px 85px;
+    width: 717px;
+  }
+
+  .text-bar button {
+    width: 82px;
+  }
+
+  .__md7 {
+    padding: 10px;
+  }
+
+
+  .__pcard {
+    width: 100%;
+  }
+  .__pcard1 {
+    width: 100%;
+  }
+
+  .__pcard2 {
+    width: 100%;
+  }
+
+  .__cardh {
+    margin: 100px 36px 10px 85px;
+    width: 729px;
+  }
+
+  .__ptable {
+    width: 100%;
+  }
  
   
 
@@ -313,7 +515,14 @@
 
 
 @media screen and (max-width: 992px){
-    
+  .__msgin {
+    margin: 20px 0px 20px 91px;
+    width: 693px; 
+  }
+
+  .__md7 {
+    padding: 10px;
+  }
 }
 
 
@@ -422,6 +631,40 @@
 
   .__fod {
     padding: 0 50px;
+  }
+
+  .__msgin {
+    margin: 34px 0px 20px 0px;
+    width: 100%;
+  }
+
+  .__pcard {
+    width: 100%;
+  }
+
+  .__pcard1 {
+    width: 100%;
+  }
+
+  .__pcard2 {
+    width: 100%;
+  }
+
+  .__cardh {
+    margin: 100px 36px 10px 0px;
+    width: 724px;
+  }
+
+  .__ptable {
+    width: 723px;
+  }
+
+  .__ttab {
+    margin-top: 2%;
+  }
+
+  .__pcardin {
+    margin-left: 8px;
   }
   
 
@@ -559,6 +802,7 @@
 
   .__fosocai {
     text-align: center;
+    float: none;
 }
 
 .__vcard {
@@ -652,6 +896,83 @@
 
   .__lagbtn {
     width: 138px;
+  }
+
+  .__msgin {
+    margin: 36px 0px 20px 0;
+    width: 100%;
+  }
+
+  .__md7 {
+    padding: 6px;
+  }
+
+  .left-chat p, .right-chat p {
+    width: 72%;
+  }
+
+  .__cardh {
+    margin: 65px 36px 10px 0px;
+    width: 100%;
+  }
+
+  .__pcard {
+    width: 100%;
+    height: 100%;
+  }
+  .__pcard1 {
+    width: 100%;
+    height: 100%;
+  }
+  .__pcard2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__pcardin {
+    position: unset;
+    margin-left: 0px;
+    width: 100%;
+    height: 67px;
+    padding: 6px 10px;
+  }
+
+  .__ptr1 {
+    font-size: 25px;
+  }
+
+  .__pta {
+    font-size: 13px;
+  }
+  .__ptp {
+    font-size: 13px;
+  }
+  .__ptt {
+    font-size: 13px;
+  }
+
+  .__ptable {
+    width: 100%;
+    padding: 11px;
+    margin-top: 5%;
+  }
+
+  .__pane-vScroll {
+    width: 800px;
+    /*width: 1334px;*/
+  }
+
+  .table table {
+  table-layout: fixed;
+  margin-bottom: 5px;
+  width: 800px;
+  /*width: 1334px;*/
+  }
+
+
+  .__dasempl {
+    margin: 45px 8px 9px 0;
+    width: 100%;
   }
 
 

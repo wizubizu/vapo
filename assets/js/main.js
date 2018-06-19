@@ -1,4 +1,4 @@
- var app = {
+var app = {
  imageHandler:function() {
         $("#upload").on('change', function() {
             //alert("alert");
@@ -80,7 +80,7 @@ var appz = {
 }
 
 
-
+ 
 
 // kowa js///
     app.imageHandler();
@@ -117,6 +117,11 @@ var appz = {
         });
     }
 
+    //fileupload for both
+        $('input[id=base-input5]').change(function() {
+            $('#fake-input5').val($(this).val().replace("C:\\fakepath\\", ""));
+        });
+
 
 
 // show another navbar menu when scroll down
@@ -126,21 +131,29 @@ var appz = {
     var myScrollFunc = function() {
       var y = window.scrollY;
       if (y >= 50) {
-        myID.className = "__bottomMenu show"
+        myID.className ="__bottomMenu show"
       } else {
-        myID.className = "__bottomMenu hide"
+        myID.className ="__bottomMenu hide"
       }
     };
 
     window.addEventListener("scroll", myScrollFunc);
 
 
-// dashboard show and hide
+    // dashboard show and hide
     $('#openSidebar').click(function(){
         $('.leftbar').addClass('biger');
         });
-        $('#closebtn').click(function(){
+    $('#closebtn').click(function(){
         $('.leftbar').removeClass('biger');
+    });
+
+     // dashboard show and hide
+    $('#openrightSidebars').click(function(){
+        $('.rightbars').addClass('bigers');
+        });
+    $('#rightclosebtns').click(function(){
+        $('.rightbars').removeClass(' bigers');
     });
     
 
@@ -161,7 +174,7 @@ var appz = {
 // register form validation
 
     function checkPass()
-{
+    {
     //Store the password field objects into variables ...
     var pass1 = document.getElementById('pass1');
     var pass2 = document.getElementById('pass2');
@@ -172,205 +185,203 @@ var appz = {
     var badColor = "#ff6666";
     //Compare the values in the password field 
     //and the confirmation field
-    if(pass1.value == pass2.value){
+        if(pass1.value == pass2.value){
         //The passwords match. 
         //Set the color to the good color and inform
         //the user that they have entered the correct password 
         pass2.style.backgroundColor = goodColor;
         message.style.color = goodColor;
         message.innerHTML = "Passwords Match"
-    }else{
+        }else{
         //The passwords do not match.
         //Set the color to the bad color and
         //notify the user.
         pass2.style.backgroundColor = badColor;
         message.style.color = badColor;
         message.innerHTML = "Password Do Not Match!"
-    }
-} 
+        }
+    } 
 
 
 
-    function validatephone(phone) 
+    function validatephone(phone) {
+        var maintainplus = '';
+        var numval = phone.value
+        if ( numval.charAt(0)=='+' )
         {
-            var maintainplus = '';
-            var numval = phone.value
-            if ( numval.charAt(0)=='+' )
-            {
-            var maintainplus = '';
-            }
-            curphonevar = numval.replace(/[\\A-Za-z!"£$%^&\,*+_={};:'@#~,.Š\/<>?|`¬\]\[]/g,'');
-            phone.value = maintainplus + curphonevar;
-            var maintainplus = '';
-            phone.focus;
+        var maintainplus = '';
         }
-        // validates text only
-        function Validate(txt) {
-            txt.value = txt.value.replace(/[^a-zA-Z-'\n\r.]+/g, '');
-        }
+        curphonevar = numval.replace(/[\\A-Za-z!"£$%^&\,*+_={};:'@#~,.Š\/<>?|`¬\]\[]/g,'');
+        phone.value = maintainplus + curphonevar;
+        var maintainplus = '';
+        phone.focus;
+    }
+    // validates text only
+    function Validate(txt) {
+        txt.value = txt.value.replace(/[^a-zA-Z-'\n\r.]+/g, '');
+    }
 
-        // validates password only
-        function pValidate(pass1) {
-            pass1.value = pass1.value.replace(/[^a-zA-Z0-9-]+/g, '');
-        }
+    // validates password only
+    function pValidate(pass1) {
+        pass1.value = pass1.value.replace(/[^a-zA-Z0-9-]+/g, '');
+    }
 
-        // validates password only
-        function pValidate(pass2) {
-            pass2.value = pass2.value.replace(/[^a-zA-Z0-9-]+/g, '');
-        }
+    // validates password only
+    function pValidate(pass2) {
+        pass2.value = pass2.value.replace(/[^a-zA-Z0-9-]+/g, '');
+    }
 
     // validate email
     function email_validate(email)
-        {
-            var regMail = /^([_a-zA-Z0-9-]+)(\.[_a-zA-Z0-9-]+)*@([a-zA-Z0-9-]+\.)+([a-zA-Z]{2,3})$/;
+    {
+        var regMail = /^([_a-zA-Z0-9-]+)(\.[_a-zA-Z0-9-]+)*@([a-zA-Z0-9-]+\.)+([a-zA-Z]{2,3})$/;
 
-            if(regMail.test(email) == false)
-            {
-                document.getElementById("status").innerHTML    = "<span class='warning'>Email address is not valid yet.</span>";
-            }
-            else
-            {
-                document.getElementById("status").innerHTML = "<span class='valid'>Thanks, you have entered a valid Email address!</span>"; 
-            }
-       
-        };
+        if(regMail.test(email) == false)
+        {
+            document.getElementById("status").innerHTML    = "<span class='warning'>Email address is not valid yet.</span>";
+        }
+        else
+        {
+            document.getElementById("status").innerHTML = "<span class='valid'>Thanks, you have entered a valid Email address!</span>"; 
+        }
+   
+    };
 
 
 
         // validate form
-function validates() {
+    function validates() {
 
-    // Academy validation
+       
+         // div 1
 
-     // div 1
+        if (document.myform.AName.value == "") {
+            $("#First-Div").css("display", "block");
+            $("#Second-Div").css("display", "none");
+            alert("Please provide your Agency Name");
+            document.myform.AName.focus();
 
-    if (document.myform.AName.value == "") {
-        $("#First-Div").css("display", "block");
-        $("#Second-Div").css("display", "none");
-        alert("Please provide your Agency Name");
-        document.myform.AName.focus();
+            return false;
+        }
 
-        return false;
+        
+
+        if (document.myform.email.value == "") {
+            $("#First-Div").css("display", "block");
+            $("#Second-Div").css("display", "none");
+            alert("Please provide your email");
+            document.myform.email.focus();
+            return false;
+        }
+        
+
+        if (document.myform.phone.value == "") {
+            $("#First-Div").css("display", "block");
+            $("#Second-Div").css("display", "none");
+            alert("Please provide your phone Number");
+            document.myform.phone.focus();
+            return false;
+        }
+
+        if (document.myform.code.value == "") {
+            $("#First-Div").css("display", "block");
+            $("#Second-Div").css("display", "none");
+            alert("Please provide your agency code");
+            document.myform.code.focus();
+            return false;
+        }
+
+        if (document.myform.country.value == "-1") {
+            $("#First-Div").css("display", "block");
+            $("#Second-Div").css("display", "none");
+            alert("Please select your country");
+            document.myform.country.focus();
+            return false;
+        }
+
+        if (document.myform.state.value == "") {
+            $("#First-Div").css("display", "block");
+            $("#Second-Div").css("display", "none");
+            alert("Please select your state");
+            document.myform.state.focus();
+            return false;
+        }
+
+        // div 2
+
+        if (document.myform.fullName.value == "") {
+            $("#First-Div").css("display", "none");
+            $("#Second-Div").css("display", "block");
+            alert("Please provide your first name, last name");
+            document.myform.fullName.focus();
+            return false;
+        }
+
+        if (document.myform.pass1.value == "") {
+            $("#First-Div").css("display", "none");
+            $("#Second-Div").css("display", "block");
+            alert("Please enter your password ");
+            document.myform.pass1.focus();
+            return false;
+        }
+
+        
+
+        if (document.myform.pass2.value == "") {
+            $("#First-Div").css("display", "none");
+            $("#Second-Div").css("display", "block");
+            alert("Please re-enter your password");
+            document.myform.pass2.focus();
+            return false;
+        }
+
+        // if (document.myform.github.value == "") {
+        //     $("#First-Div").css("display", "none");
+        //     $("#Second-Div").css("display", "block");
+        //     alert("Please provide your github link");
+        //     document.myform.github.focus();
+        //     return false;
+        // }
+
+        if (document.myform.reason.value == "") {
+            $("#First-Div").css("display", "none");
+            $("#Second-Div").css("display", "block");
+            alert("Please tell us reasons why you should be selected");
+            document.myform.reason.focus();
+            return false;
+        }
+
+        if (document.myform.schedule.value == "-1") {
+            $("#First-Div").css("display", "none");
+            $("#Second-Div").css("display", "block");
+            alert("Please select your schedule");
+            document.myform.schedule.focus();
+            return false;
+        }
+        // return(true);
     }
 
-    
 
-    if (document.myform.email.value == "") {
-        $("#First-Div").css("display", "block");
-        $("#Second-Div").css("display", "none");
-        alert("Please provide your email");
-        document.myform.email.focus();
-        return false;
-    }
-    
+    function validateEmail() {
+        var emailID = document.myform.email.value;
+        atpos = emailID.indexOf("@");
+        dotpos = emailID.indexOf(".");
 
-    if (document.myform.phone.value == "") {
-        $("#First-Div").css("display", "block");
-        $("#Second-Div").css("display", "none");
-        alert("Please provide your phone Number");
-        document.myform.phone.focus();
-        return false;
+        if (atpos < 1 || ( dotpos - atpos < 2)) {
+            alert("pls enter correct email ID")
+            document.myform.email.focus();
+            return false;
+        }
+        // return( true);
     }
 
-    if (document.myform.code.value == "") {
-        $("#First-Div").css("display", "block");
-        $("#Second-Div").css("display", "none");
-        alert("Please provide your agency code");
-        document.myform.code.focus();
-        return false;
-    }
-
-    if (document.myform.country.value == "-1") {
-        $("#First-Div").css("display", "block");
-        $("#Second-Div").css("display", "none");
-        alert("Please select your country");
-        document.myform.country.focus();
-        return false;
-    }
-
-    if (document.myform.state.value == "") {
-        $("#First-Div").css("display", "block");
-        $("#Second-Div").css("display", "none");
-        alert("Please select your state");
-        document.myform.state.focus();
-        return false;
-    }
-
-    // div 2
-
-    if (document.myform.fullName.value == "") {
-        $("#First-Div").css("display", "none");
-        $("#Second-Div").css("display", "block");
-        alert("Please provide your first name, last name");
-        document.myform.fullName.focus();
-        return false;
-    }
-
-    if (document.myform.pass1.value == "") {
-        $("#First-Div").css("display", "none");
-        $("#Second-Div").css("display", "block");
-        alert("Please enter your password ");
-        document.myform.pass1.focus();
-        return false;
-    }
-
-    
-
-    if (document.myform.pass2.value == "") {
-        $("#First-Div").css("display", "none");
-        $("#Second-Div").css("display", "block");
-        alert("Please re-enter your password");
-        document.myform.pass2.focus();
-        return false;
-    }
-
-    // if (document.myform.github.value == "") {
-    //     $("#First-Div").css("display", "none");
-    //     $("#Second-Div").css("display", "block");
-    //     alert("Please provide your github link");
-    //     document.myform.github.focus();
-    //     return false;
-    // }
-
-    if (document.myform.reason.value == "") {
-        $("#First-Div").css("display", "none");
-        $("#Second-Div").css("display", "block");
-        alert("Please tell us reasons why you should be selected");
-        document.myform.reason.focus();
-        return false;
-    }
-
-    if (document.myform.schedule.value == "-1") {
-        $("#First-Div").css("display", "none");
-        $("#Second-Div").css("display", "block");
-        alert("Please select your schedule");
-        document.myform.schedule.focus();
-        return false;
-    }
-    // return(true);
-}
-
-
-function validateEmail() {
-    var emailID = document.myform.email.value;
-    atpos = emailID.indexOf("@");
-    dotpos = emailID.indexOf(".");
-
-    if (atpos < 1 || ( dotpos - atpos < 2)) {
-        alert("pls enter correct email ID")
-        document.myform.email.focus();
-        return false;
-    }
-    // return( true);
-}
-
-// end
+    // end
 
 
 
 
 
-function showNextForm() {
+    function showNextForm() {
         $("#First-Div").css("display", "none");
         $("#Second-Div").css("display", "block");
     };
@@ -428,6 +439,19 @@ function showNextForm() {
             $("#Forth-Div").css("display", "block");
         }
     };
+
+
+    //date picker script
+     $('.datepicker').datepicker({
+         weekStart:1,
+         format: 'dd-mm-yyyy',
+         color: '#f0842d'
+     });
+     //end
+
+
+    
+
     
 
 

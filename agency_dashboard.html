@@ -17,6 +17,7 @@
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link href="assets/css/bootstrap-datepicker.css" rel="stylesheet" />
 
 
 	
@@ -49,9 +50,9 @@
 				</div>
 		
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<div class="collapse navbar-collapse navbar-ex1-collapse __dasbg">
 					<ul class="nav navbar-nav navbar-right __dashnu">
-						<li class="dropdown">
+						<li class="dropdown __dp">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="far fa-bell"></i></span><sup><span class="__dasnt"><i class="fas fa-circle __dasnt1"></i></span></sup> <!-- <b class="caret"></b> --></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Action</a></li>
@@ -103,16 +104,16 @@
 							<br><br>
 							<div class="">
 								<p class="activedashboard" >
-									<a href="dashboard.html">Dashboard</a>
+									<a href="agency_dashboard.html">Dashboard</a>
 								</p>
 								<p class="" >
-									<a href="project.html">Messages</a>
+									<a href="message.html">Messages</a>
 								</p>
 								<p class="" >
-									<a href="transation.html">Profile</a>
+									<a href="profile.html">Profile</a>
 								</p>
 								<p class="" >
-									<a href="settings">View Employer</a>
+									<a href="view_agent.html">View Employer</a>
 								</p>
 								<p class="" >
 									<a href="inbox.html">Deals & Bids</a>
@@ -122,7 +123,7 @@
 					</div>
 					
 					<div class="col-md-10">
-						<div class="container">
+						<div class="">
 							<div class="__dasepl">
 								<div class="row">
 									<div class="col-md-8 col-sm-7 col-xs-5">
@@ -132,11 +133,120 @@
 										<p>
 											<span>Create Deals</span>
 											<span></span>
-											<span><i class="fas fa-plus"></i></span>
+											<span><a class="" data-toggle="modal" href='#modal-id'><i class="fas fa-plus"></i></a></span>
+											
 										</p>
 									</div>
 								</div>
 							</div>
+
+							<!-- create modal -->
+							<!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+							<div class="modal fade" id="modal-id">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header  __donln">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h4 class="modal-title __modc">Create a new Deal</h4>
+										</div>
+										<div class="modal-body">
+											<form action="" method="POST" role="form" id="fileForm">
+												<div class="row">
+													<div class="col-md-6 col-sm-6">
+														<div class="form-group">
+															<label for="" class="__lform">Company Name/ Agent</label>
+															<input type="text" class="form-control __loin" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
+															<div id="errFirst"></div>   
+														</div>
+													</div>
+													<div class="col-md-6 col-sm-6">
+														<div class="form-group">
+															<label for="" class="__lform">Company/ Agent Phone Num</label>
+															<input type="text" class="form-control __loin" placeholder="" name="phonenumber" id="phone" maxlength="28" onkeyup="validatephone(this);" required placeholder="">
+														</div>
+													</div>
+												</div>
+
+												<div class="row">
+													<div class="col-md-6 col-sm-6">
+														<div class="form-group">
+															<label for="" class="__lform">Deal Expires </label>
+															<input type="text" class="btn-select-input datepicker form-control __loin" placeholder="dd/mm/yyyy" id="" name="" value="" />
+													    </div>
+													</div>
+													<div class="col-md-6 col-sm-6">
+														<div class="form-group">
+															<label for="" class="__lform">Upload Image</label><br>
+															<!-- upload -->
+															<input type="file" id="base-input5" name="" class="form-control5 form-input5 form-style-base5">
+													        <input type="text" id="fake-input5" name="" class="form-control5 form-input5 form-style-fake5" placeholder="Upload | image /logo" readonly>
+													        <!-- <span class="glyphicon glyphicon-open input-place5"></span> -->
+													        <!-- end -->
+														</div>
+													</div>
+												</div><br>
+
+												<div class="row">
+													<div class="col-md-3 col-sm-3 col-xs-6">
+														<label>
+															<div class="checkbox">
+																<label class="__lchek">
+																	<input type="checkbox" value="">
+																	Flight
+																</label>
+															</div>
+														</label>
+													</div>
+													<div class="col-md-3 col-sm-3 col-xs-6">
+														<label>
+															<div class="checkbox">
+																<label class="__lchek">
+																	<input type="checkbox" value="">
+																	Airport Pickup
+																</label>
+															</div>
+														</label>
+													</div>
+													<div class="col-md-3 col-sm-3 col-xs-6">
+														<label>
+															<div class="checkbox">
+																<label class="__lchek">
+																	<input type="checkbox" value="">
+																	Hotel
+																</label>
+															</div>
+														</label>
+													</div>
+													<div class="col-md-3 col-sm-3 col-xs-6">
+														<label>
+															<div class="checkbox">
+																<label class="__lchek">
+																	<input type="checkbox" value="">
+																	Tours
+																</label>
+															</div>
+														</label>
+													</div>
+												</div>
+
+												<div class="form-group">
+													<label for="" class="__lform">About Deal</label>
+													<textarea name="" id="input" class="form-control" rows="5"></textarea>
+												</div>
+
+												<div class="text-center">
+													<button type="submit" class="btn __modbtn">Create</button>
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer  __donln">
+											<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-primary">Save changes</button> -->
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end -->
 
 							<div class="__dasepl1">
 								<div class="row">
@@ -186,7 +296,11 @@
 	<script type="text/javascript" src="libraries/bootstrap/js/jquery-3.1.1.min.js"></script>
 
     <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.js"></script>
     <script src="assets/js/main.js"></script>
+
+
+
 
 </body>
 
