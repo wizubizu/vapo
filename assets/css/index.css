@@ -551,9 +551,9 @@
     width: 900px;
   }
 
-  .__pane-vScroll {
+ /* .__pane-vScroll {
     width: 926px;
-  }
+  }*/
 
 
 
@@ -660,10 +660,6 @@
     width: 306px;
   }
 
-  .__pane-vScroll {
-    width: 928px;
-  }
- 
   
 
 }
@@ -837,9 +833,6 @@
     width: 233px;
   }
 
-  .__pane-vScroll {
-    width: 928px;
-  }
   
 
 
@@ -1131,16 +1124,10 @@
     margin-top: 5%;
   }
 
-  .__pane-vScroll {
-    width: 927px;
-    /*width: 1334px;*/
-  }
+  
 
   .table table {
-  table-layout: fixed;
-  margin-bottom: 5px;
-  width: 800px;
-  /*width: 1334px;*/
+    width: 800px;
   }
 
 

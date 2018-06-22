@@ -2398,110 +2398,111 @@ transition: all 0.4s ease-in;
   color: #b5b5b5;
 }
 
-.table table {
-  table-layout: fixed;
-  margin-bottom: 5px;
-}
-
-.__table th:nth-child(1){
-  width: 200px;
-}
-
-.__table th:nth-child(2){
-  width: 300px;
-}
-
-.__table th:nth-child(3){
-  width: 175px;
-}
-
-.__table th:nth-child(4){
-  width: 129px;
-}
-
-.__table th:nth-child(5){
-  width: 122px;
-}
 
 
-.table img{
+
+.points_table img{
   width: 30px;
   height: 30px;
   box-shadow: 0 0 2px 2px rgba(229, 229, 229, 0.5);
 }
 
-.__pane-vScroll {
+.points_table thead {
+  width: 100%;
+}
+
+.points_table tbody {
+  height: 500px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.points_table thead tr{
+  width: 99%;
+}
+
+ .points_table tr{
+  width: 100%;
+ }
+
+.points_table thead, .points_table tbody, .points_table tr, .points_table td, .points_table th{
+  display: inline-block;
+}
+
+.points_table thead{
+  background: transparent;
+  color: #595959;
+  border-bottom: 1px solid #595959;
+}
+
+.points_table tbody td, .points_table thead > tr> th{
+  float: left;
+  border-bottom-width: 0;
+}
+
+.points_table>tbody>tr>td, .points_table>tbody>tr>th, .points_table>tfoot>tr>td, .points_table>tfoot>tr>th, .points_table>thead>tr>td, .points_table>thead>tr>th{
+  padding: 8px;
+  /*height: 50px;*/
+  /*text-align: center;*/
+  /*line-height: 32px;*/
+}
+
+.odd {
+  background: #ffffff;
+  color: #000;
+}
+
+.even {
+  background: #efefef;
+  color: #000;
+}
+
+.points_table_scrollbar{
+  height: 500px;
   overflow-y: scroll;
-  overflow-x: hidden;
-  height: 344px;
-  border: solid 1px #f7f7f7;
 }
 
-.__pane-vScroll::-webkit-scrollbar {
-    width: 2px !important;
-     /*background-color: #d6f4ff !important; */
+.points_table_scrollbar::-webkit-scrollbar-track{
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+  border-radius: 10px;*/
+  /*background-color: #444444;*/
+}
+
+.points_table_scrollbar::-webkit-scrollbar{
+  width: 2px;
+  /*min-width: 5px;*/
+  /*background-color: #333;*/
+}
+
+.points_table_scrollbar::-webkit-scrollbar-thumb{
+  /*border-radius: 10px;*/
+  background-color: #333;
+  /*background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent)*/
+}
+
+.__msgpo::-webkit-scrollbar {
+  width: 2px !important;
+ }
+
+ .__msgpo::-webkit-scrollbar-thumb {
+    background: #333;
 }
 
 
-
-.scrm td:nth-child(1) {
-    padding: 8px 16px;
-    border: 1px solid #ddd;
-    width: 200px;
-    /*overflow-x: scroll;
-    overflow-y: hidden;*/
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /*white-space: nowrap;*/
+.table-fixed thead {
+  width: 97%;
 }
-
-.scrm td:nth-child(2) {
-    padding: 8px 16px;
-    border: 1px solid #ddd;
-    width: 300px;
-    /*overflow-x: scroll;
-    overflow-y: hidden;*/
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /*white-space: nowrap;*/
+.table-fixed tbody {
+  height: 230px;
+  overflow-y: auto;
+  width: 100%;
 }
-
-.scrm td:nth-child(3) {
-    padding: 8px 16px;
-    border: 1px solid #ddd;
-    width: 150px;
-    /*overflow-x: scroll;
-    overflow-y: hidden;*/
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /*white-space: nowrap;*/
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
 }
-
-.scrm td:nth-child(4) {
-    padding: 8px 16px;
-    border: 1px solid #ddd;
-    width: 150px;
-    /*overflow-x: scroll;
-    overflow-y: hidden;*/
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /*white-space: nowrap;*/
-}
-
-.scrm td:nth-child(5) {
-    padding: 8px 16px;
-    border: 1px solid #ddd;
-    width: 123px;
-    /*overflow-x: scroll;
-    overflow-y: hidden;*/
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /*white-space: nowrap;*/
-}
-
-.scrm td::-webkit-scrollbar {
-    width: 2px !important;
-     /*background-color: #d6f4ff !important; */
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
 }
 
 .__msgpoo{
