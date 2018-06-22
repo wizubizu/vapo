@@ -520,6 +520,14 @@ var appz = {
        });
     });
     // end
+
+    // remove table
+    $('.delete').on('click', function(event) {
+    $(this).parents('tr').remove();
+    });
+
+    
+    // end
     
 
 
