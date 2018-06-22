@@ -45,6 +45,21 @@
     margin-top: 0%;
     margin-left: 227px;
   }
+
+  .__tabov {
+    margin: 5% 0 0 89px;
+    width: 866px;
+  }
+
+  .__profbtn {
+    width: 165px;
+  }
+
+  .__prof1btn {
+    width: 165px;
+  }
+
+
 }
 
 @media screen and (max-width: 1024px){
@@ -94,7 +109,7 @@
 
   .__tabov {
     margin: 5% 0 0 82px;
-    width: 758px;
+    width: 721px;
   }
 
   .__trvto {
@@ -103,6 +118,19 @@
 
   .__nav-pills li a {
     padding: 20px 10px 9px;
+  }
+
+  .__profbtn {
+    font-family: AvenirLTStd-Medium;
+    width: 142px;
+  }
+  .__prof1btn {
+    font-family: AvenirLTStd-Medium;
+    width: 142px;
+  }
+
+  .__upl {
+    padding: 40px 66px;
   }
 
 
@@ -214,6 +242,14 @@
 
   .__nav-pills li a {
     padding: 20px 5px 9px;
+  }
+
+  .__profbtn {
+    width: 140px;
+  }
+
+  .__prof1btn {
+    width: 140px;
   }
 
 
@@ -387,6 +423,66 @@
     padding: 25px 15px;
   }
 
+  .__it .btn-new, .__it .btn-next {
+    margin: 0px 0px;
+    font-size: 16px;
+    width: 123px;
+  }
+
+  .__accordion {
+    padding: 18px 20px;
+  }
+
+  .panel {
+    padding: 0 18px;
+  }
+
+  .__profbtn {
+    width: 120px;
+  }
+  .__prof1btn {
+    width: 120px;
+  }
+
+  .__proft {
+    border-right: none;
+  }
+
+  .__prp{
+    text-align: center;
+  }
+
+  .__prp p:nth-child(1) {
+    font-size: 11px;
+  }
+
+  .__prp p:nth-child(2) {
+    font-size: 11px;
+  }
+
+  .__prp p:nth-child(3) {
+    font-size: 14px;
+  }
+  .__prp p:nth-child(4) {
+    font-size: 12px;
+  }
+
+  .__picture {
+    width: 240px;
+  }
+
+  #picture_preview {
+    width: 104px;
+    height: 104px;
+  }
+
+  .__picture .__pimg {
+    margin-top: 69px;
+    margin-left: -36px;
+  }
+
+
+
 
 }
 
@@ -418,7 +514,7 @@
   }
 
   .__navm {
-    bottom: -269px;
+    bottom: -195px;
     margin: 0 0 0 241px;
     padding: 20px 0;
   }
@@ -453,6 +549,10 @@
   .__msgin {
     margin: 20px 0px 20px 57px;
     width: 900px;
+  }
+
+  .__pane-vScroll {
+    width: 926px;
   }
 
 
@@ -505,12 +605,11 @@
   }
 
   .__tradeal {
-    top: 21px;
+    top: 5px;
   }
 
   .__bidn {
-    position: absolute;
-    top: 21px;
+    top: 5px;
   }
 
   .__foter {
@@ -549,6 +648,20 @@
 
   .__ptable {
     width: 100%;
+  }
+
+  .__overlay {
+    height: 289px;
+    width: 628px;
+  }
+
+  .__overlay1 {
+    height: 289px;
+    width: 306px;
+  }
+
+  .__pane-vScroll {
+    width: 928px;
   }
  
   
@@ -644,11 +757,11 @@
   }
 
   .__tradeal {
-    top: 16px;
+    top: 5px;
   }
 
   .__bidn {
-    top: 16px;
+    top: 5px;
   }
 
   
@@ -712,6 +825,20 @@
 
   .__pcardin {
     margin-left: 8px;
+  }
+
+  .__overlay {
+    height: 240px;
+    width: 481px;
+  }
+
+  .__overlay1 {
+    height: 239px;
+    width: 233px;
+  }
+
+  .__pane-vScroll {
+    width: 928px;
   }
   
 
@@ -835,7 +962,7 @@
 
   .__vf {
     bottom: 0px;
-    width: 330px;
+    width: 297px;
   }
 
   .__vfp {
@@ -1005,7 +1132,7 @@
   }
 
   .__pane-vScroll {
-    width: 800px;
+    width: 927px;
     /*width: 1334px;*/
   }
 
@@ -1020,6 +1147,16 @@
   .__dasempl {
     margin: 45px 8px 9px 0;
     width: 100%;
+  }
+
+  .__overlay {
+    width: 290px;
+    height: 200px;
+  }
+
+  .__overlay1 {
+    width: 291px;
+    height: 200px;
   }
 
 

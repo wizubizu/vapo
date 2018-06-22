@@ -88,20 +88,6 @@
 					<div class="col-md-2">
 						<div class="leftbar">
 							<img src="assets/img/cross-out.svg" id="closebtn">
-							<!-- <i class="fa fa-times" id="closebtn"></i> -->
-							
-							<!-- <div class="text-center __dast">
-								<span class="__dascont">
-									<span>XYZ  Bizuu Travels </span>
-								</span>
-							</div>
-
-							<div class="text-center"> 
-								<span class="__dashsimg">
-									<img src="assets/img/newo.png">
-								</span>
-							</div>
-							 --><br><br>
 							<div class="">
 								<p class="" >
 									<a href="traveller_dashboard.html">Dashboard</a>
@@ -122,29 +108,76 @@
 					<div class="col-md-10">
 						<div class="__tabov">
 							<div class="__prd">
+								<p class="__pred">Profile</p><br>
 								<div class="row">
-									<div class="col-md-5">
-										<div class="__picture">
-							                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAhRsMOMIvyfi-rD07o9Fa6DzkaeahYPqYu_KWfNtW1ShsxGxa"
-							                  class="picture_src img-circle" id="picture_preview" alt="" >
-							                <img src="assets/img/camera.svg" class=" img-circle __pimg">
-							                <input class="img_container" type="file" id="upload" name="file">
+									<div class="col-md-5 col-sm-5">
+										<div class="__proft">
+											<div class="__picture">
+								                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAhRsMOMIvyfi-rD07o9Fa6DzkaeahYPqYu_KWfNtW1ShsxGxa"
+								                  class="picture_src img-circle" id="picture_preview" alt="" >
+								                <img src="assets/img/camera.svg" class=" img-circle __pimg">
+								                <input class="img_container" type="file" id="upload" name="file">
 
-							            </div>
+								            </div>
+										</div>
 									</div>
-									<div class="col-md-7">
-										<p>Abimbola Sadiku</p>
-										<p>sadikuabimbola@mail.com</p>
-										<p>35 Abimbola street, Yaba, Lagos</p>
-										<p>080373737083</p>
+									<div class="col-md-7 col-sm-7">
+										<div class="__prp">
+											<p>Abimbola Sadiku</p>
+											<p>sadikuabimbola@mail.com</p>
+											<p>35 Abimbola street, Yaba, Lagos</p>
+											<p>080373737083</p>
+										</div>
 									</div>
 								</div>
+							</div><br>
 
-								<div>
-									<button class="__accordion">Question number 01 goes in here?</button>
-						<div class="panel">
-						  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</div>
+							<div>
+								<div class="__accordion">
+									<h4 class="accordion-toggle">Add CO Traveller</h4>
+									<div class="accordion-content">
+										<p class="" style="margin-top: 25px;">CO Traveller information</p>
+										<br>
+										<form action="" method="POST" role="form" id="fileForm">
+											<div class="row">
+												<div class="col-md-6 col-sm-6">
+													<div class="form-group">
+														<label for="" class="__lform">Full Name</label>
+														<input type="text" class="form-control __loin" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
+														<div id="errFirst"></div>   
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6">
+													<div class="form-group">
+														<label for="" class="__lform">Agency Phone Number</label>
+														<input type="text" class="form-control __loin" placeholder="" name="phonenumber" id="phone" maxlength="28" onkeyup="validatephone(this);" required placeholder="">
+													</div>
+												</div>
+											</div>
+
+											<div class="row">
+												<div class="col-md-6 col-sm-6">
+													<div class="form-group">
+														<label for="" class="__lform">Email Address</label>
+														<input type="email" class="form-control __loin" name="email" id = "email"  onchange="email_validate(this.value);" required />   
+		                								<div class="status" id="status"></div>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6">
+													
+												</div>
+											</div><br>
+
+											<div class="row">
+												<div class="col-md-6 col-sm-6"></div>
+												<div class="col-md-6 col-sm-6">
+													<button type="submit" class="btn __profbtn">Save</button>
+													<a  class="btn __prof1btn">Cancle</a>
+												</div>
+											</div><br>
+										</form>
+									</div>
+									
 								</div>
 							</div>
 						</div><!-- end of container -->

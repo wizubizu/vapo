@@ -88,20 +88,6 @@
 					<div class="col-md-2">
 						<div class="leftbar">
 							<img src="assets/img/cross-out.svg" id="closebtn">
-							<!-- <i class="fa fa-times" id="closebtn"></i> -->
-							
-							<!-- <div class="text-center __dast">
-								<span class="__dascont">
-									<span>XYZ  Bizuu Travels </span>
-								</span>
-							</div>
-
-							<div class="text-center"> 
-								<span class="__dashsimg">
-									<img src="assets/img/newo.png">
-								</span>
-							</div>
-							 --><br><br>
 							<div class="">
 								<p class="" >
 									<a href="traveller_dashboard.html">Dashboard</a>
@@ -125,49 +111,103 @@
 
 							<form action="" method="POST" role="form">
 								<div class="row">
-									<div class="col-md-8 col-sm-8">
+									<div class="col-md-2"></div>
+									<div class="col-md-8">
 										<div class="__upl">
-											<p>Up Load Document</p>
-											<div class="form-group">
-												<label for="" class="__lform">International passport</label>
-												<input type="file" class="form-control __loin" id="files" name="image_file_arr[]" multiple>
-											</div>
 
-											<div class="form-group">
-												<label for="" class="__lform">Medical Certificate</label>
-												<input type="file" class="form-control __loin" id="files1" name="image_file_arr[]" multiple>
-											</div>
+											<form action="" method="POST" role="form">
+												<p class="__lform">Please upload documents </p><br>
+												<div class="form-group">
+													
+													<div class="__it">
+									        
+											            <div class="row uploadDoc">
+										                    <div class="col-sm-11 col-xs-10">
+										                    	<label for="">International passport</label>
+										                        <span class="docErr"> (Please upload valid file)</span><!--error-->
+										                        <div class="fileUpload btn btn-orange">
+										                            <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+										                            <span class="upl" id="upload">Upload document</span>
+										                            <input type="file" class="upload up" id="up" onchange="readURL(this);" />
+										                        </div><!-- btn-orange -->
+										                    </div> <!-- col-3 -->
+										                    
+										                </div><!--row-->
+											        </div>
+												</div>
 
-											<div class="form-group">
-												<label for="" class="__lform">Hotel Reservation Doc</label>
-												<input type="file" class="form-control __loin" id="files2" name="image_file_arr[]" multiple>
-											</div>
+												<div class="form-group">
+													
+													<div class="__it">
+									        
+											            <div class="row uploadDoc">
+										                    <div class="col-sm-11 col-xs-10">
+										                    	<label for="">Medical Certificate</label>
+										                        <span class="docErr"> (Please upload valid file)</span><!--error-->
+										                        <div class="fileUpload btn btn-orange">
+										                            <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+										                            <span class="upl" id="upload">Upload document</span>
+										                            <input type="file" class="upload up" id="up" onchange="readURL(this);" />
+										                        </div><!-- btn-orange -->
+										                    </div> <!-- col-3 -->
+										                    
+										                </div><!--row-->
+											        </div>
+												</div>
 
-											<div class="form-group">
-												<label for="" class="__lform">Other Document</label>
-												<input type="file" class="form-control __loin" id="files3" name="image_file_arr[]" multiple>
-											</div>
-										</div><br>
-										<div class="text-center">
-											<button type="submit" class="btn btn-primary">Save</button>
+												<div class="form-group">
+													
+													<div class="__it">
+									        
+											            <div class="row uploadDoc">
+										                    <div class="col-sm-11 col-xs-10">
+										                       <label for="">Hotel Reservation Doc</label> <span class="docErr"> (Please upload valid file)</span><!--error-->
+										                        <div class="fileUpload btn btn-orange">
+										                            <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+										                            <span class="upl" id="upload">Upload document</span>
+										                            <input type="file" class="upload up" id="up" onchange="readURL(this);" />
+										                        </div><!-- btn-orange -->
+										                    </div><!-- col-3 -->
+										                </div><!--row-->
+											        </div>
+												</div>
+											
+												
+											
+												<div class="form-group">
+													
+													<div class="__it">
+														<label for="">Other Document</label>
+											            <div id="uploader">
+											                <div class="row uploadDoc">
+											                    <div class="col-sm-11 col-xs-10">
+											                       <!--  <div class="docErr">Please upload valid file</div>
+											                        <div class="fileUpload btn btn-orange">
+											                            <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+											                            <span class="upl" id="upload">Upload document</span>
+											                            <input type="file" class="upload up" id="up" onchange="readURL(this);" />
+											                        </div> -->
+											                    </div>
+											                    
+											                    <div class="col-sm-1 col-xs-2">
+											                    	<!-- <a class="btn-check"><i class="fa fa-times"></i></a> -->
+											                    </div>
+											                </div>
+											            </div>
+											            
+											        	<a class="btn btn-new"><i class="fa fa-plus"></i> Add new</a>
+												    
+														<div class="text-center">
+											                
+											                <a class="btn btn-next"><i class="fa fa-paper-plane"></i> Save</a>
+											            </div>
+													</div>
+												</div>
+
+											</form>
 										</div>
 									</div>
-									<div class="col-md-4 col-sm-4">
-										<div class="form-group">
-											<div id="list"></div><br>
-										</div><br>
-										<div class="form-group">
-											<div id="list1"></div>
-										</div><br>
-
-										<div class="form-group">
-											<div id="list2"></div>
-										</div><br>
-
-										<div class="form-group">
-											<div id="list3"></div>
-										</div><br>
-									</div>
+									<div class="col-md-2"></div>
 								</div>
 							
 								
