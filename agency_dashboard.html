@@ -7,7 +7,7 @@
 	<meta name="author" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="assets/img/Logo1.png">
+	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<title>Vapo</title>
 	
 
@@ -154,94 +154,89 @@
 											<h4 class="modal-title __modc">Create a new Deal</h4>
 										</div>
 										<div class="modal-body">
-											<form action="" method="POST" role="form" id="fileForm">
-												<div class="row">
-													<div class="col-md-6 col-sm-6">
-														<div class="form-group">
-															<label for="" class="__lform">Company Name/ Agent</label>
-															<input type="text" class="form-control __loin" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
-															<div id="errFirst"></div>   
+											<div class="row">
+												<div class="col-md-1"></div>
+												<div class="col-md-10">
+													<form action="" method="POST" role="form" id="fileForm">
+														<div class="row">
+															<div class="col-md-6 col-sm-6">
+																<div class="form-group">
+																	<label for="" class="__lform">Company Name/ Agent</label>
+																	<input type="text" class="form-control __loin" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
+																	<div id="errFirst"></div>   
+																</div>
+															</div>
+															<div class="col-md-6 col-sm-6">
+																<div class="form-group">
+																	<label for="" class="__lform">Company/ Agent Phone Num</label>
+																	<input type="text" class="form-control __loin" placeholder="" name="phonenumber" id="phone" maxlength="28" onkeyup="validatephone(this);" required placeholder="">
+																</div>
+															</div>
 														</div>
-													</div>
-													<div class="col-md-6 col-sm-6">
-														<div class="form-group">
-															<label for="" class="__lform">Company/ Agent Phone Num</label>
-															<input type="text" class="form-control __loin" placeholder="" name="phonenumber" id="phone" maxlength="28" onkeyup="validatephone(this);" required placeholder="">
-														</div>
-													</div>
-												</div>
 
-												<div class="row">
-													<div class="col-md-6 col-sm-6">
-														<div class="form-group">
-															<label for="" class="__lform">Deal Expires </label>
-															<input type="text" class="btn-select-input datepicker form-control __loin" placeholder="dd/mm/yyyy" id="" name="" value="" />
-													    </div>
-													</div>
-													<div class="col-md-6 col-sm-6">
-														<div class="form-group">
-															<label for="" class="__lform">Upload Image</label><br>
-															<!-- upload -->
-															<input type="file" id="base-input5" name="" class="form-control5 form-input5 form-style-base5">
-													        <input type="text" id="fake-input5" name="" class="form-control5 form-input5 form-style-fake5" placeholder="Upload | image /logo" readonly>
-													        <!-- <span class="glyphicon glyphicon-open input-place5"></span> -->
-													        <!-- end -->
-														</div>
-													</div>
-												</div><br>
+														<div class="row">
+															<div class="col-md-6 col-sm-6">
+																<div class="form-group">
+																	<label for="" class="__lform">Deal Expires </label>
+																	<input type="text" class="btn-select-input datepicker form-control __loin" placeholder="dd/mm/yyyy" id="" name="" value="" />
+															    </div>
+															</div>
+															<div class="col-md-6 col-sm-6">
+																<div class="form-group">
+																	<label for="" class="__lform">Upload Image</label><br>
+																	<!-- upload -->
+																	<input type="file" id="base-input5" name="" class="form-control5 form-input5 form-style-base5">
+															        <input type="text" id="fake-input5" name="" class="form-control5 form-input5 form-style-fake5" placeholder="Upload | image /logo" readonly>
+															        <!-- <span class="glyphicon glyphicon-open input-place5"></span> -->
+															        <!-- end -->
+																</div>
+															</div>
+														</div><br>
 
-												<div class="row">
-													<div class="col-md-3 col-sm-3 col-xs-6">
-														<label>
-															<div class="checkbox">
-																<label class="__lchek">
-																	<input type="checkbox" value="">
+														<div class="row">
+															<div class="col-md-3 col-sm-3 col-xs-6">
+																<label class="check">
+																	<input type="checkbox"  name="is_name">
+															  		<span class="checkmark"></span>
 																	Flight
 																</label>
 															</div>
-														</label>
-													</div>
-													<div class="col-md-3 col-sm-3 col-xs-6">
-														<label>
-															<div class="checkbox">
-																<label class="__lchek">
-																	<input type="checkbox" value="">
+															<div class="col-md-3 col-sm-3 col-xs-6">
+																<label class="check">
+																	<input type="checkbox"  name="is_name">
+															  		<span class="checkmark"></span>
 																	Airport Pickup
 																</label>
 															</div>
-														</label>
-													</div>
-													<div class="col-md-3 col-sm-3 col-xs-6">
-														<label>
-															<div class="checkbox">
-																<label class="__lchek">
-																	<input type="checkbox" value="">
+															<div class="col-md-3 col-sm-3 col-xs-6">
+																<label class="check">
+																	<input type="checkbox"  name="is_name">
+															  		<span class="checkmark"></span>
 																	Hotel
 																</label>
+
 															</div>
-														</label>
-													</div>
-													<div class="col-md-3 col-sm-3 col-xs-6">
-														<label>
-															<div class="checkbox">
-																<label class="__lchek">
-																	<input type="checkbox" value="">
+															<div class="col-md-3 col-sm-3 col-xs-6">
+																<label class="check">
+																	<input type="checkbox"  name="is_name">
+															  		<span class="checkmark"></span>
 																	Tours
 																</label>
 															</div>
-														</label>
-													</div>
-												</div>
+														</div>
 
-												<div class="form-group">
-													<label for="" class="__lform">About Deal</label>
-													<textarea name="" id="input" class="form-control" rows="5"></textarea>
-												</div>
+														<div class="form-group">
+															<label for="" class="__lform">About Deal</label>
+															<textarea name="" id="input" class="form-control" rows="5"></textarea>
+														</div>
 
-												<div class="text-center">
-													<button type="submit" class="btn __modbtn">Create</button>
+														<div class="text-center">
+															<button type="submit" class="btn __modbtn">Create</button>
+														</div>
+													</form>
 												</div>
-											</form>
+												<div class="col-md-1"></div>
+											</div>
 										</div>
 										<div class="modal-footer  __donln">
 											<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

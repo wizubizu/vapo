@@ -660,6 +660,42 @@
     width: 306px;
   }
 
+  .__payp img {
+    width: 498px;
+    height: 130vh;
+  }
+
+  .__payoverlay {
+    width: 498px;
+    height: 130vh;
+  }
+
+  .__paypps {
+    padding: 10px 30px;
+  }
+
+  .__serim img {
+    width: 100%;
+    height: 344px;
+  }
+
+  .__serme1 {
+    padding: 4px 0px;
+  }
+
+  .__scard {
+    width: 100%;
+  }
+
+  .__dealm img {
+    width: 100%;
+    height: 360px;
+  }
+
+  .__deaal {
+    margin: 6px 6px 0 -28px;
+  }
+
   
 
 }
@@ -833,7 +869,66 @@
     width: 233px;
   }
 
-  
+  .__ser img {
+    height: 130px;
+  }
+
+  .__ser p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .__ser p:nth-child(3) {
+    font-size: 13px;
+  }  
+
+  .__seart {
+    font-size: 18px;
+  }
+
+  .__sersee {
+    font-size: 18px;
+  }
+  .__seart1 {
+    font-size: 18px;
+  }
+
+  .__paym{
+    padding: 8px 85px;
+  }
+
+  .__payp img {
+    width: 599px;
+    height: 100%;
+  }
+
+  .__serim img {
+    width: 100%;
+    height: 322px;
+  }
+
+  .__scard {
+    width: 100%;
+  }
+
+  .__serme1 {
+    padding: 4px 0px;
+  }
+
+  .__scard p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .__scard p:nth-child(3) {
+    font-size: 17px;
+  }
+
+  .__dealm img {
+    width: 100%;
+    height: 273px;
+  }
+
+
+ 
 
 
 
@@ -1039,7 +1134,7 @@
   }
 
   .__lfbtn {
-    width: 279px;
+    /*width: 279px;*/
   }
 
   .__lgsoc {
@@ -1144,6 +1239,146 @@
   .__overlay1 {
     width: 291px;
     height: 200px;
+  }
+
+  .__visadimg img {
+    width: 100%;
+  }
+
+  .__visaad {
+    width: 100%;
+  }
+
+  .__visadbtn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__paym{
+    padding: 0 10px;
+  }
+  .__payp img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__payoverlay {
+    width: 301px;
+    height: 100%;
+  }
+
+  .__payvap {
+    bottom: 0px;
+    padding: 0px 14px;
+    width: 301px;
+  }
+
+  .__paypps {
+    padding: 10px 17px;
+  }
+
+  .__serp {
+    padding: 15px;
+  }
+
+  .__seain {
+    height: 40px;
+  }
+
+  .__sercbtn {
+    padding: 6px 15px;
+  }
+
+  .__ser img {
+    height: 118px;
+    margin-top: 10px;
+  }
+
+  .__ser p:nth-child(2) {
+    font-size: 12px;
+  }
+
+  .__ser p:nth-child(3) {
+    font-size: 12px;
+  }
+
+  .__seart {
+    font-size: 15px;
+  }
+
+  .__sersee {
+    font-size: 14px;
+  }
+
+  .__seart1 {
+    font-size: 15px;
+  }
+
+  .__serim img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__sers .__i {
+    font-size: 16px;
+  }
+
+  .__seca {
+    font-size: 23px;
+    margin-top: -8%;
+  }
+
+  .__seimgm{
+    text-align: center;
+  }
+
+  .__star {
+    text-align: center;
+  }
+
+  .__serp1{
+  text-align: center;
+  }
+
+  .__serm {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__serme {
+    padding: 10px 4px 20px;
+  }
+
+  .__serme1 {
+    padding: 4px 14px;
+  }
+
+  .__scard {
+    width: 259px;
+    margin-top: 10px;
+  }
+
+  .__serm1 {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__sercb {
+    font-size: 20px;
+  }
+
+  .__sercb1 {
+    font-size: 13px;
+  }
+
+  .__dealm img {
+    width: 100%;
+    height: 174px;
+  }
+
+  .__deaal{
+    font-size: 12px;
+    margin: 6px 6px 0 0px;
   }
 
 
