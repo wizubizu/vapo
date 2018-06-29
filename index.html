@@ -17,6 +17,7 @@
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link href="assets/css/bootstrap-datepicker.css" rel="stylesheet" />
 
 
 	
@@ -105,8 +106,8 @@
 						<div class="col-md-2 col-sm-2 col-xs-5 __navdf"><a href="">Download App</a></div>
 						<div class="col-md-2 col-sm-2 col-xs-6 __navdf"><a href="">Visa Advisory</a></div>
 						<div class="col-md-2 col-sm-2 col-xs-6 __navdf"><a href="">Deals</a></div>
-						<div class="col-md-2 col-sm-1 col-xs-6 __navdf"><a href="">Bids</a></div>
-						<div class="col-md-2 col-sm-3 col-xs-6"><a href="" class="btn __navsbtn">Get Free Quotes</a></div>
+						<div class="col-md-2 col-sm-1 col-xs-6 __navdf"><a data-toggle="modal" href='#modal-idb'>Bids</a></div>
+						<div class="col-md-2 col-sm-3 col-xs-6"><a data-toggle="modal" href='#modal-idg' class="btn __navsbtn">Get Free Quotes</a></div>
 					</div>
 				</div>
 			</div>
@@ -189,6 +190,365 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- bid modal -->
+		<!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+			<div class="modal fade" id="modal-idb">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header  __donln">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title __modc">Bid</h4><br><br>
+							<p class="__visahp">What service do you need</p><br>
+							
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-1 col-sm-1"></div>
+								<div class="col-md-10 col-sm-10">
+
+									<div class="row">
+										<div class="col-md-3 col-sm-3 col-xs-3">
+											<label class="check __payche">
+												<input type="checkbox"  name="is_name">
+										  		<span class="checkmark"></span>
+												Flight
+											</label>
+										</div>
+										<div class="col-md-3 col-sm-3 col-xs-3">
+											<label class="check __payche">
+												<input type="checkbox"  name="is_name">
+										  		<span class="checkmark"></span>
+												Hotel
+											</label>
+										</div>
+										<div class="col-md-3 col-sm-3 col-xs-3">
+											<label class="check __payche">
+												<input type="checkbox"  name="is_name">
+										  		<span class="checkmark"></span>
+												Tour
+											</label>
+										</div>
+										<div class="col-md-3 col-sm-3 col-xs-3">
+											<label class="check __payche">
+												<input type="checkbox"  name="is_name">
+										  		<span class="checkmark"></span>
+												Car Hire
+											</label>
+										</div>
+									</div><br><br>
+
+									<div class="row">
+										<div class="col-md-4 col-sm-4"></div>
+										<div class="col-md-4 col-sm-4">
+											<a data-dismiss="modal" data-toggle="modal" href='#modal-idn' class="btn __lfbtn btn-block">Next</a>
+										</div>
+										<div class="col-md-4 col-sm-4"></div>
+									</div>
+									
+								</div>
+								<div class="col-md-1 col-sm-1"></div>
+							</div>
+						</div>
+						<div class="modal-footer  __donln">
+							<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- end -->
+
+		<!-- get quote modal -->
+		<!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+			<div class="modal fade" id="modal-idg">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header  __donln">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title __modc">Get Quote</h4>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-1 col-sm-1"></div>
+								<div class="col-md-10 col-sm-10">
+									<form action="" method="POST" role="form">
+										<div class="row">
+											<div class="col-md-6 col-sm-6">
+												<div class="form-group">
+													<label for="" class="__lform">From</label>
+													<input type="text" class="form-control __loin" id="" placeholder="">
+												</div>
+											</div>
+											<div class="col-md-6 col-sm-6">
+												<div class="form-group">
+													<label for="" class="__lform">To</label>
+													<input type="text" class="form-control __loin" id="" placeholder="">
+												</div>
+											</div>
+										</div>
+
+										<div class="form-group">
+											<label for="" class="__1form">Document</label>
+											<div class="__it">
+								        		<div class="uploadDoc">
+								                    <div class="fileUpload btn btn-orange">
+							                            <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+							                            <span class="upl" id="upload">Upload</span>
+							                            <input type="file" class="upload up __loin" id="up" onchange="readURL(this);" />
+							                        </div><!-- btn-orange -->
+								                </div><!--row-->
+									        </div>
+										</div>
+
+										<div class="row">
+											<div class="col-md-6 col-sm-6">
+												<div class="form-group">
+													<label for="" class="__lform">Departure Date </label>
+													<input type="text" class="btn-select-input datepicker form-control __loin" placeholder="dd/mm/yyyy" id="" name="" value="" />
+												</div>
+											</div>
+											<div class="col-md-6 col-sm-6">
+												<div class="form-group">
+													<div class="form-group">
+														<label for="" class="__lform">Numbers of Days</label>
+														<input type="text" class="form-control __loin" placeholder="" name="phonenumber" id="phone" maxlength="28" onkeyup="validatephone(this);" required placeholder="">
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="form-group">
+											<label for="" class="__lform">Email Address</label>
+											<input type="email" class="form-control __loin" name="email" id = "email"  onchange="email_validate(this.value);" required />   
+					                        		<div class="status" id="status"></div>
+										</div>
+
+										<div class="form-group">
+											<label for="" class="__lform">Phone Number</label>
+											<input type="text" class="form-control __loin" placeholder="" name="phonenumber" id="phone" maxlength="28" onkeyup="validatephone(this);" required placeholder="">
+											
+									    </div>
+
+										
+
+										<div class="row">
+											<div class="col-md-4 col-sm-4"></div>
+											<div class="col-md-4 col-sm-4">
+												<a data-dismiss="modal" data-toggle="modal" href='#modal-idn' class="btn __lfbtn btn-block">Next</a>
+											</div>
+											<div class="col-md-4 col-sm-4"></div>
+										</div>
+									</form>
+								</div>
+								<div class="col-md-1 col-sm-1"></div>
+							</div>
+						</div>
+						<div class="modal-footer  __donln">
+							<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- end -->
+
+		<a class="btn btn-primary" data-toggle="modal" href='#modal-id1'>get q1</a>
+			<div class="modal fade" id="modal-id1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header  __donln">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title __modc">Get Quote</h4>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-1 col-sm-1"></div>
+								<div class="col-md-10 col-sm-10">
+									<form action="" method="POST" role="form">
+										<div class="row">
+											<div class="col-md-6 col-sm-6 col-xs-6">
+												<div class="form-group">
+													<label for="" class="__lform">From</label>
+													<input type="text" class="form-control __loin" id="" placeholder="">
+												</div>
+											</div>
+											<div class="col-md-6 col-sm-6 col-xs-6">
+												<div class="form-group">
+													<label for="" class="__lform">To</label>
+													<input type="text" class="form-control __loin" id="" placeholder="">
+												</div>
+											</div>
+										</div>
+
+										<div class="row">
+											<div class="col-md-6 col-sm-6">
+												<p>Add My Save Document</p>
+											</div>
+											<div class="col-md-6 col-sm-6">
+												<div class="form-group">
+													<label class="__radio radio-inline"><input type="radio"  name="is_company">
+													<span class="checkround"></span>Yes</label>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+													<label class="__radio radio-inline"><input type="radio"  name="is_company">
+													<span class="checkround"></span>No</label>
+												</div>
+											</div>
+										</div>
+
+										<div class="form-group">
+											<label for="" class="__1form">Departure Date </label>
+											<div class="row">
+												<div class="col-md-4 col-sm-4 col-xs-4">
+													<div class="btn __actinbtn">Fixed</div>
+												</div>
+												<div class="col-md-4 col-sm-4 col-xs-4">
+													<div class="btn __actinbtn">Flexible</div>
+												</div>
+												<div class="col-md-4 col-sm-4 col-xs-4">
+													<div class="btn __actinbtn">Anytime</div>
+												</div>
+											</div><br>
+										</div>
+
+										<div class="form-group">
+											<label for="" class="__lform">Email Address</label>
+											<input type="email" class="form-control __loin" name="email" id = "email"  onchange="email_validate(this.value);" required />   
+					                        		<div class="status" id="status"></div>
+										</div>
+
+										<div class="form-group">
+											<label for="" class="__lform">Phone Number</label>
+											<input type="text" class="form-control __loin" placeholder="" name="phonenumber" id="phone" maxlength="28" onkeyup="validatephone(this);" required placeholder="">
+											
+									    </div>
+
+										
+
+										<div class="row">
+											<div class="col-md-4 col-sm-4"></div>
+											<div class="col-md-4 col-sm-4">
+												<a data-dismiss="modal"  class="btn __lfbtn btn-block">Next</a>
+											</div>
+											<div class="col-md-4 col-sm-4"></div>
+										</div>
+									</form>
+								</div>
+								<div class="col-md-1 col-sm-1"></div>
+							</div>
+						</div>
+						<div class="modal-footer  __donln">
+							<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button> -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a class="btn btn-primary" data-toggle="modal" href='#modal-id2'>get q2</a>
+			<div class="modal fade" id="modal-id2">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header  __donln">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title __modc">Get Quote</h4>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-1 col-sm-1"></div>
+								<div class="col-md-10 col-sm-10">
+									<form action="" method="POST" role="form">
+										<div class="row">
+											<div class="col-md-6 col-sm-6 col-xs-6">
+												<div class="form-group">
+													<label for="" class="__lform">From</label>
+													<input type="text" class="form-control __loin" id="" placeholder="">
+												</div>
+											</div>
+											<div class="col-md-6 col-sm-6 col-xs-6">
+												<div class="form-group">
+													<label for="" class="__lform">To</label>
+													<input type="text" class="form-control __loin" id="" placeholder="">
+												</div>
+											</div>
+										</div>
+
+										<div class="row">
+											<div class="col-md-6 col-sm-6">
+												<p>Add My Save Document</p>
+											</div>
+											<div class="col-md-6 col-sm-6">
+												<div class="form-group">
+													<label class="__radio radio-inline"><input type="radio"  name="is_company">
+													<span class="checkround"></span>Yes</label>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+													<label class="__radio radio-inline"><input type="radio"  name="is_company">
+													<span class="checkround"></span>No</label>
+												</div>
+											</div>
+										</div>
+
+										<div class="form-group">
+											<label for="" class="__1form">How Long will You Stay </label>
+											<select name="" id="input" class="form-control __loin" >
+												<option value="">5 Days 4 Night</option>
+												<option value="">4 Days 4 Night</option>
+												<option value="">2 Days 4 Night</option>
+												<option value="">9 Days 4 Night</option>
+											</select>
+										</div>
+
+										<div class="form-group">
+											<label for="" class="__1form">Type of Travel</label>
+											<div class="row">
+												<div class="col-md-4 col-sm-4 col-xs-4">
+													<div class="btn __actinbtn">Holiday</div>
+												</div>
+												<div class="col-md-4 col-sm-4 col-xs-4">
+													<div class="btn __actinbtn">Business Meeting</div>
+												</div>
+												<div class="col-md-4 col-sm-4 col-xs-4">
+													<div class="btn __actinbtn">Anytime</div>
+												</div>
+
+												<div class="text-center">
+													<div class="btn __actinbtn">Explore All</div>
+												</div>
+											</div><br>
+										</div>
+
+										<div class="form-group">
+											<label for="" class="__lform">Email Address</label>
+											<input type="email" class="form-control __loin" name="email" id = "email"  onchange="email_validate(this.value);" required />   
+					                        		<div class="status" id="status"></div>
+										</div>
+
+										<div class="form-group">
+											<label for="" class="__lform">Phone Number</label>
+											<input type="text" class="form-control __loin" placeholder="" name="phonenumber" id="phone" maxlength="28" onkeyup="validatephone(this);" required placeholder="">
+											
+									    </div>
+
+										
+
+										<div class="row">
+											<div class="col-md-4 col-sm-4"></div>
+											<div class="col-md-4 col-sm-4">
+												<a data-dismiss="modal"  class="btn __lfbtn btn-block">Next</a>
+											</div>
+											<div class="col-md-4 col-sm-4"></div>
+										</div>
+									</form>
+								</div>
+								<div class="col-md-1 col-sm-1"></div>
+							</div>
+						</div>
+						<div class="modal-footer  __donln">
+							<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- end -->
 	</header>
 
 
@@ -626,6 +986,7 @@
 	<script type="text/javascript" src="libraries/bootstrap/js/jquery-3.1.1.min.js"></script>
 
     <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.js"></script>
     <script src="assets/js/main.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 

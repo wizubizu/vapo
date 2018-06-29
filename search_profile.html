@@ -151,7 +151,7 @@
 							</p>
 
 							<div class="__serp1">
-								<a href="" class="btn __serpbtn">Refer to a Friend</a>
+								<a data-toggle="modal" href='#modal-id1' class="btn __serpbtn">Refer to a Friend</a>
 							</div>
 						</div>
 					</div>
@@ -165,7 +165,7 @@
 							<a data-toggle="modal" href='#modal-id' class="btn __serm">Massage</a>
 						</div>
 						<div class="col-md-3 col-sm-3">
-							<a href="" class="btn __serm">Rate me</a>
+							<a data-toggle="modal" href='#modal-id2' class="btn __serm">Rate me</a>
 						</div>
 						<div class="col-md-6 col-sm-6">
 							<a href="" class="btn __serm1">Coustomize your quotes</a>
@@ -176,6 +176,7 @@
 			</div><br>
 
 			<!-- create modal -->
+			<!-- message -->
 			<!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
 			<div class="modal fade" id="modal-id">
 				<div class="modal-dialog">
@@ -243,6 +244,128 @@
 											<button type="submit" class="btn __modbtn">Send</button>
 										</div>
 									</form>
+								</div>
+								<div class="col-md-1 col-sm-1"></div>
+							</div>
+						</div>
+						<div class="modal-footer  __donln">
+							<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button> -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- refer -->
+			<div class="modal fade" id="modal-id1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header  __donln">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title __modc">Refer a friend</h4>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-1 col-sm-1"></div>
+								<div class="col-md-10 col-sm-10">
+									<p class="text-center">Please enter your friends email address and send</p>
+									<form action="" method="POST" role="form" id="fileForm">
+
+										<div class="form-group">
+											<label for="" class="__lform">Email</label>
+											<input type="email" class="form-control __loin" name="email" id = "email"  onchange="email_validate(this.value);" required />   
+            								<div class="status" id="status"></div>
+										</div>
+
+										<div class="text-center">
+											<button type="submit" class="btn __modbtn">Next</button>
+										</div>
+									</form>
+								</div>
+								<div class="col-md-1 col-sm-1"></div>
+							</div>
+						</div>
+						<div class="modal-footer  __donln">
+							<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button> -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- rate -->
+			<div class="modal fade" id="modal-id2">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header  __donln">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><br>
+							<h4 class="modal-title __modc">Rate an agency service</h4>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-1 col-sm-1"></div>
+								<div class="col-md-10 col-sm-10">
+									<p class="__semdu">Rate to improve every agency customers service and relation just to serve you better.</p><br>
+									<p class="text-center">
+										<span class="__starm"><i class="fas fa-star"></i></span>
+										<span class="__starm"><i class="fas fa-star"></i></span>
+										<span class="__starm"><i class="fas fa-star"></i></span>
+										<span class="__starm"><i class="fas fa-star"></i></span>
+										<span class="__starm"><i class="fas fa-star"></i></span>
+									</p><br>
+									<div class="text-center">
+										<a data-dismiss="modal" data-toggle="modal" href='#modal-id3' class="btn __modbtn">Next</a>
+									</div>
+								</div>
+								<div class="col-md-1 col-sm-1"></div>
+							</div>
+						</div>
+						<div class="modal-footer  __donln">
+							<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button> -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="modal-id3">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header  __donln">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><br>
+							<h4 class="modal-title __modc">Your Experience</h4>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-1 col-sm-1"></div>
+								<div class="col-md-10 col-sm-10">
+									<p class="text-center">
+										<span class="__starm"><i class="fas fa-star"></i></span>
+										<span class="__starm"><i class="fas fa-star"></i></span>
+										<span class="__starm"><i class="fas fa-star"></i></span>
+										<span class="__starm"><i class="fas fa-star"></i></span>
+										<span class="__starm"><i class="fas fa-star"></i></span>
+									</p><br>
+									<div class="row">
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<div class="btn __actbtn">Customer Care</div>
+										</div>
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<div class="btn __actbtn">Quality</div>
+										</div>
+									</div><br>
+
+									<div class="row">
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<div class="btn __actbtn">Fast</div>
+										</div>
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<div class="btn __actbtn">Nice</div>
+										</div>
+									</div><br>
+									<div class="text-center">
+										<button type="button" data-dismiss="modal" class="btn __modbtn">Save</button>
+									</div>
 								</div>
 								<div class="col-md-1 col-sm-1"></div>
 							</div>
@@ -368,7 +491,5 @@
     <script src="assets/js/bootstrap-datepicker.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>  -->
-
-</body>
+ </body>
 </html>

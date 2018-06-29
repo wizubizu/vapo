@@ -101,6 +101,9 @@ var appz = {
         });
     });
 
+
+
+
     // accordion
 
     $(document).ready(function() {
@@ -112,6 +115,11 @@ var appz = {
             $(this).toggleClass('active').siblings().removeClass('active');
         });
     });
+
+
+    
+
+    // end
 
     //fileupload for both
         $('input[id=base-input5]').change(function() {
@@ -260,6 +268,22 @@ var appz = {
         }
    
     };
+
+    // accordion plus sign
+     var acc = document.getElementsByClassName("__accordion1");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("__active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+                panel.style.maxHeight = null;
+            } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+            });
+        }
 
 
 
@@ -463,6 +487,16 @@ var appz = {
      });
      //end
 
+     //modal button and star active change bgcolor
+        $(".__actbtn, .__starm").click(function() {
+          $(this).toggleClass('foo');
+        });
+
+        $(".__actinbtn").click(function() {
+          $(this).toggleClass('foo');
+        });
+    // end
+
      
 
 
@@ -565,6 +599,8 @@ var appz = {
         doc.save('Visa guide.pdf');
     });
     
+
+
 
 
 
