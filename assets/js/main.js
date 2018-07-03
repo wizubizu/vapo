@@ -495,6 +495,10 @@ var appz = {
         $(".__actinbtn").click(function() {
           $(this).toggleClass('foo');
         });
+
+        $(".__actin1btn").click(function() {
+          $(this).toggleClass('foo');
+        });
     // end
 
      

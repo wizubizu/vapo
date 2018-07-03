@@ -2156,6 +2156,20 @@ font-size: 18px;
   color: #1a72e6;
 }
 
+.__lfbbtn{
+  font-family: AvenirLTStd-Medium;
+  /*width: 502px;*/
+  /*height: 45px;*/
+  border-radius: 3px;
+  border: 1px solid #f0842d;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #f0842d !important ;
+  transition: all 0.4s ease-in;
+}
+
 .__lfbtn{
   font-family: AvenirLTStd-Medium;
   /*width: 502px;*/
@@ -3499,7 +3513,7 @@ font-size: 30px;
      /*display: block;*/
     position: relative;
     padding-left: 30px;
-    margin-bottom: 12px;
+    /*margin-bottom: 12px;*/
     cursor: pointer;
     font-size: 15px;
     color: #919191;
@@ -3803,7 +3817,7 @@ font-size: 30px;
     /*height: 55px;*/
     border-radius: 5px;
     background-color: #ffffff;
-    border: solid 4px #3ba9c4;
+    border: solid 1px #3ba9c4;
     padding: 10px;
     text-align: center;
     margin-top: 5px;
@@ -3811,6 +3825,72 @@ font-size: 30px;
 .__actinbtn.foo{
   background-color: #3ba9c4;
   color: #ffffff;
+}
+
+.__actin1btn {
+    font-family: AvenirLTStd-Heavy;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    color: #595959;
+    width: 135px;
+    /*height: 55px;*/
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 1px #3ba9c4;
+    padding: 9px 3px;
+    text-align: center;
+    margin-top: 10px;
+}
+.__actin1btn.foo{
+  background-color: #3ba9c4;
+  color: #ffffff;
+}
+
+.__flimg img{
+  width: 24px;
+}
+
+.__conal{
+  padding: 50px 90px;
+}
+
+.__cont{
+  font-family: AvenirLTStd-Black;
+  font-size: 56px;
+  font-weight: 900;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #6a6a6a;
+  /*text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);*/
+}
+
+.__conta{
+  font-family: AvenirLTStd-Heavy;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  color: #676767;
+}
+
+.__contad{
+  font-family: AvenirLTStd-Heavy;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.0;
+  color: #676767;
+}
+
+.__conimg{
+  width: 30px;
+}
+
+.__conin{
+  margin-top: 60px;
+}
+
+.__contbg{
+  background-color: #f9f9f9;
 }
 
 
