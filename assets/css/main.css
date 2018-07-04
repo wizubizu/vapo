@@ -8,7 +8,7 @@ html {
 
 body {
 	/*font-family: 'Raleway', sans-serif;*/
-	font-family: '', AvenirLTStd-Roman;
+	font-family: '', Raleway-Regular;
 	font-size: 14px;
 	color: #222222;
 	font-weight: normal;
@@ -20,24 +20,24 @@ body {
 
 
 @font-face{
-  font-family: 'AvenirLTStd-Roman';
-  src: url('../../Avenir/AvenirLTStd-Roman.otf');
+  font-family: 'Raleway-Regular';
+  src: url('../../raleway/Raleway-Regular.ttf');
 }
 @font-face{
-  font-family: 'AvenirLTStd-Medium';
-  src: url('../../Avenir/AvenirLTStd-Medium.otf');
+  font-family: 'Raleway-Medium';
+  src: url('../../raleway/Raleway-Medium.ttf');
 }
 @font-face{
-  font-family: 'AvenirLTStd-Book';
-  src: url('../../Avenir/AvenirLTStd-Book.otf');
+  font-family: 'Raleway-Light';
+  src: url('../../raleway/Raleway-Light.ttf');
 }
 @font-face{
-  font-family: 'AvenirLTStd-Black';
-  src: url('../../Avenir/AvenirLTStd-Black.otf');
+  font-family: 'Raleway-ExtraBold';
+  src: url('../../raleway/Raleway-ExtraBold.ttf');
 }
 @font-face{
-  font-family: 'AvenirLTStd-Heavy';
-  src: url('../../Avenir/AvenirLTStd-Heavy.ttf');
+  font-family: 'Raleway-Heavy';
+  src: url('../../raleway/Raleway-Heavy.ttf');
 }
 
 @font-face{
@@ -54,7 +54,7 @@ body {
   font-family: 'Helvetica Neu Bold';
   src: url('../../helveticaneue/Helvetica Neu Bold.ttf');
 }
-.f1{
+/*.f1{
   font-family: "Poppins-Regular";
 }
 .f2{
@@ -68,7 +68,7 @@ body {
 }
 .f5{
   font-family: "Cera GR Black";
-}
+}*/
  
  .l-h2{line-height: 27px}
 .l-h{line-height: 45px;}
@@ -344,7 +344,7 @@ a:focus, a:hover {
 }
 .activedashboard{
   /*background-color: #f9f9f9 !important;*/
-  font-family: AvenirLTStd-Black !important;
+  font-family: Raleway-Bold !important;
   font-size: 16px !important;
   font-weight: 900 !important;
   letter-spacing: 0.4px;
@@ -360,7 +360,7 @@ a:focus, a:hover {
   /*traveler dashboard*/
 .activedashboardt{
   /*background-color: #f9f9f9 !important;*/
-  font-family: AvenirLTStd-Black !important;
+  font-family: Raleway-Bold !important;
   font-size: 16px !important;
   font-weight: 900 !important;
   letter-spacing: 0.4px;
@@ -533,7 +533,7 @@ i#closebtn {
   }
 
   .__rigp{
-    font-family: AvenirLTStd-Black;
+    font-family: Raleway-Bold;
     font-size: 14px;
   font-weight: 900;
   letter-spacing: 0.4px;
@@ -541,7 +541,7 @@ i#closebtn {
   margin-bottom: 1px;
   }
   .__rigp1{
-    font-family: AvenirLTStd-Medium;
+    font-family: Raleway-Medium;
     font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -576,7 +576,7 @@ i#closebtn {
   }
 
   .__profcont {
-    font-family: AvenirLTStd-Black;
+    font-family: Raleway-Bold;
     font-size: 12px;
     font-weight: 900;
     letter-spacing: 0.3px;
@@ -726,7 +726,7 @@ i#closebtn {
 }
 
 .__dascont{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 12px;
   font-weight: 900;
   letter-spacing: 0.3px;
@@ -743,7 +743,7 @@ i#closebtn {
 }
 
 .__dasepl{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 14px;
   font-weight: 500;
   color: #595959;
@@ -890,7 +890,7 @@ input[type="file"] {
 }
 
 .__modbtn {
-    font-family: AvenirLTStd-Medium;
+    font-family: Raleway-Medium;
     width: 155px;
     height: 45px;
     border-radius: 3px;
@@ -908,11 +908,12 @@ input[type="file"] {
 }
 
 .__modc{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 24px;
   font-weight: 500;
   text-align: center;
-  color: #595959;
+  /*color: #595959;*/
+  color: #ffffff;
 }
 
 
@@ -980,7 +981,7 @@ input[type="file"] {
 }
 
 .__tabp{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 18px;
   font-weight: 900;
   line-height: 0.67;
@@ -990,7 +991,7 @@ input[type="file"] {
 }
 
 .__tabp1{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 0.86;
@@ -1001,7 +1002,7 @@ input[type="file"] {
 }
 
 .__tabp2{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 14px;
   font-weight: 900;
   line-height: 1.36;
@@ -1021,7 +1022,7 @@ input[type="file"] {
 }
 
 .__tabin p:nth-child(1){
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 18px;
   font-weight: 900;
   line-height: 0.67;
@@ -1092,7 +1093,7 @@ input[type="file"] {
 }
 
 .__upl p{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 0.4px;
@@ -1191,7 +1192,7 @@ border-right:5px solid rgba(0,0,0,0);
 
 
 .__pred{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -1199,7 +1200,7 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__prp p:nth-child(1){
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 16px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -1208,7 +1209,7 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__prp p:nth-child(2){
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 16px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -1216,7 +1217,7 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__prp p:nth-child(3){
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 20px;
   font-weight: 900;
   letter-spacing: 0.8px;
@@ -1431,7 +1432,7 @@ border-right:5px solid rgba(0,0,0,0);
   line-height: 1.25;
   letter-spacing: 1.1px;
   color: #ffffff !important;
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Regular;
 }
 
 .__navelm{
@@ -1477,7 +1478,7 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__navin{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 56px;
   font-weight: 900;
   line-height: 1.23;
@@ -1492,7 +1493,7 @@ border-right:5px solid rgba(0,0,0,0);
 
 .__navw{
   width: 500px;
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.78;
@@ -1517,7 +1518,7 @@ border-right:5px solid rgba(0,0,0,0);
   border-radius: 5px;
   background-color: #f8f8f8;
   /*box-shadow: 0 0 4px 2px rgba(228, 228, 228, 0.5);*/
-  font-family: AvenirLTStd-Book;
+  font-family: Raleway-Light;
   font-size: 16px;
   letter-spacing: 0.4px;
   color: #000000 !important;
@@ -1530,7 +1531,7 @@ border-right:5px solid rgba(0,0,0,0);
   border-radius: 3px;
   background-color: #ea4335;
   border: solid 1px #f2f2f2;
-  font-family: AvenirLTStd-Heavy;
+  font-family: Raleway-Bold;
   font-size: 13px;
   font-weight: 900;
   letter-spacing: 0.4px;
@@ -1553,7 +1554,7 @@ border-right:5px solid rgba(0,0,0,0);
   height: 45px;
   background-color: #ffffff;
   border: solid 1px #f2f2f2;
-  font-family: AvenirLTStd-Book;
+  font-family: Raleway-Light;
   font-size: 13px;
   letter-spacing: 0.4px;
   text-align: center;
@@ -1577,7 +1578,7 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__navdf{
-  font-family: AvenirLTStd-Book;
+  font-family: Raleway-Light;
   font-size: 13px;
   letter-spacing: 0.4px;
   text-align: center;
@@ -1636,20 +1637,20 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__navovp{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   padding: 10px 2px;
-  font-size: 13px;
-  font-weight: 900;
+  font-size: 12px;
+  /*font-weight: 900;*/
   letter-spacing: 0.4px;
   color: #ffffff;
 }
 
 .__navovp1{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   margin-left: 10px;
   padding: 10px 2px;
   font-size: 13px;
-  font-weight: 900;
+  /*font-weight: 900;*/
   letter-spacing: 0.4px;
   color: #ffffff;
 }
@@ -1659,11 +1660,11 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__navovp2{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
 
   padding: 10px 2px;
   font-size: 13px;
-  font-weight: 900;
+  /*font-weight: 900;*/
   letter-spacing: 0.4px;
   color: #ffffff;
 }
@@ -1695,18 +1696,19 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__topt{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 24px;
   font-weight: 900;
   letter-spacing: 1.1px;
   text-align: center;
   color: #6e6e6e;
-  margin-top: 8%;
-  padding: 30px;
+  /*margin-top: 8%;*/
+  margin-top: 0%;
+  padding: 20px;
 }
 
 .__topt1{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 24px;
   font-weight: 900;
   letter-spacing: 1.1px;
@@ -1716,7 +1718,7 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__art{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 48px;
   font-weight: 900;
   text-align: center;
@@ -1726,7 +1728,7 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__regbtn{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   width: 211px;
   height: 46.8px;
   border-radius: 3px;
@@ -1889,7 +1891,7 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__vfp{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
     font-size: 16px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -1928,7 +1930,7 @@ border-right:5px solid rgba(0,0,0,0);
   height: 69px;
   border-radius: 3px;
   background-color: #359ad1;
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -1945,7 +1947,7 @@ border-right:5px solid rgba(0,0,0,0);
   height: 69px;
   border-radius: 3px;
   background-color: #d0021b;
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -2031,7 +2033,7 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__fh{
-font-family: AvenirLTStd-Heavy;
+font-family: Raleway-Bold;
 font-size: 18px;
   font-weight: 900;
   letter-spacing: 2.7px;
@@ -2039,11 +2041,11 @@ font-size: 18px;
 }
 
 .__fotr{
-  font-family: AvenirLTStd-Heavy;
-  font-size: 14px;
-  font-weight: 900;
-  letter-spacing: 2.1px;
-  color: #777777 !important;
+  font-family: Raleway-Medium;
+  font-size: 12px;
+  font-weight: 200;
+  letter-spacing: 1.1px;
+  /*color: #777777 !important;*/
 }
 
 .__fotr:hover{
@@ -2060,20 +2062,32 @@ font-size: 18px;
 }
 
 .__fotcop{
-  font-family: AvenirLTStd-Roman;
+  font-family: Raleway-Medium;
   font-size: 11px;
   letter-spacing: 1.5px;
   text-align: center;
-  color: #777777;
+  /*color: #777777;*/
 }
 
 .__fosocai{
   float: right;
 }
 
-.__fotsoh{
+.__fotsohf{
   font-size: 20px;
-  color: #979797;
+  color: #3B5998;
+  padding: 10px
+}
+
+.__fotsoht{
+  font-size: 20px;
+  color: #1DA1F2;
+  padding: 10px
+}
+
+.__fotsohy{
+  font-size: 20px;
+  color: #c4302b;
   padding: 10px
 }
 
@@ -2121,10 +2135,11 @@ font-size: 18px;
   color: #3a559f;
 }
 .__lform{
-  font-family: AvenirLTStd-Book;
+  font-family: Raleway-Light;
   font-size: 14px;
   letter-spacing: 0.4px;
   color: #454545;
+  font-weight: 200 !important;
 }
 
 .__loin{
@@ -2139,12 +2154,12 @@ font-size: 18px;
 }
 
 .__lchek{
-  font-family: AvenirLTStd-Book;
+  font-family: Raleway-Light;
   letter-spacing: 0.4px;
   color: #595959;
 }
 .__lchek1{
-  font-family: AvenirLTStd-Book;
+  font-family: Raleway-Light;
   letter-spacing: 0.4px;
   color: #595959;
   float: right;
@@ -2157,7 +2172,7 @@ font-size: 18px;
 }
 
 .__lfbbtn{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   /*width: 502px;*/
   /*height: 45px;*/
   border-radius: 3px;
@@ -2171,7 +2186,7 @@ font-size: 18px;
 }
 
 .__lfbtn{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   /*width: 502px;*/
   /*height: 45px;*/
   border-radius: 3px;
@@ -2199,7 +2214,7 @@ font-size: 18px;
   margin-right: -3px;
 }
 .__lsp1{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   background-color: #4a90e2;
   padding: 10px 23px 11px;
   letter-spacing: 0.3px;
@@ -2215,7 +2230,7 @@ font-size: 18px;
     margin-right: 0px;
 }
 .__lsp3{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   border: 1px solid #3a559f;
   padding: 10px 14px 11px;
   letter-spacing: 0.3px;
@@ -2235,7 +2250,7 @@ font-size: 18px;
 }
 
 .__logm{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -2250,7 +2265,7 @@ font-size: 18px;
 }
 
 .__uselog{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -2272,7 +2287,7 @@ font-size: 18px;
 }
 
 .__usep{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -2282,7 +2297,7 @@ font-size: 18px;
 }
 
 .__usebtn{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   width: 189px;
   height: 35px;
   border-radius: 3px;
@@ -2301,7 +2316,7 @@ transition: all 0.4s ease-in;
 }
 
 .__lagbtn {
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   width: 249px;
   height: 45px;
   border-radius: 3px;
@@ -2391,7 +2406,7 @@ transition: all 0.4s ease-in;
 }
 
 .__ptr{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.2px;
@@ -2401,7 +2416,7 @@ transition: all 0.4s ease-in;
 }
 
 .__ptr1{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 36px;
   font-weight: 500;
   letter-spacing: 0.6px;
@@ -2425,14 +2440,14 @@ transition: all 0.4s ease-in;
 }
 
 .__ptp{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.3px;
   color: #3ba9c4;
 }
 .__ptt{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -2440,7 +2455,7 @@ transition: all 0.4s ease-in;
 }
 
 .__pta{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -2448,7 +2463,7 @@ transition: all 0.4s ease-in;
 }
 
 .__ptp1{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -2627,12 +2642,12 @@ font-weight: 900;
 }
 
 .__md7 p:nth-child(2){
-font-family: AvenirLTStd-Book;
+font-family: Raleway-Light;
 font-size: 15px;
 color: #25252b;
 }
 .__md7 p:nth-child(3){
-font-family: AvenirLTStd-Medium;
+font-family: Raleway-Medium;
 font-size: 14px;
   font-weight: 500;
   line-height: 1.57;
@@ -2655,7 +2670,7 @@ color: #25252b;
 }
 
 .__msgd1 p:nth-child(1){
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 14px;
   font-weight: 900;
   letter-spacing: 1.2px;
@@ -2707,7 +2722,7 @@ color: #25252b;
   overflow: hidden;
 }
 .left-chat p,.right-chat p{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.75;
@@ -2724,7 +2739,7 @@ color: #25252b;
 .left-chat .__span,.right-chat .__span{
   background: transparent !important;
   color: #686871;
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 10px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -2741,7 +2756,7 @@ color: #25252b;
   margin-top: 0px;
 }
 .right-chat p{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.75;
@@ -2761,7 +2776,7 @@ color: #25252b;
   border:1px solid #e1e1e1;
 }
 .text-bar button{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: bold;
   color: #ffffff;
@@ -2831,7 +2846,7 @@ color: #25252b;
 }
 
 .__pro2{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.44;
@@ -2853,7 +2868,7 @@ color: #25252b;
 
 
 .__prof{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
     /*height: 230px;*/
     background-color: #f2f2f2;
     padding: 34px 85px;
@@ -2929,7 +2944,7 @@ color: #25252b;
 }
 
 .__visad{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 29px;
   font-weight: 900;
   letter-spacing: 0.6px;
@@ -2957,7 +2972,7 @@ color: #25252b;
 }
 
 .__visadbtn{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   width: 184px;
   padding: 12px;
   font-size: 13px;
@@ -2976,7 +2991,7 @@ color: #25252b;
 }
 
 .__visah{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 24px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -2985,16 +3000,17 @@ color: #25252b;
 }
 
 .__visahp{
-  font-family: AvenirLTStd-Book;
-  font-size: 14px;
+  font-family: Raleway-Light;
+  font-size: 20px;
   line-height: 1.29;
   letter-spacing: 0.4px;
   text-align: center;
   color: #454545;
+  /*font-weight: 900;*/
 }
 
 .__visahb{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.57;
@@ -3008,7 +3024,7 @@ color: #25252b;
 }
 
 .__visahg{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 20px;
   font-weight: 900;
   letter-spacing: 0.4px;
@@ -3032,6 +3048,12 @@ color: #25252b;
 
 .__donln {
     border: none;
+    background-color: #298fce;
+}
+
+.__donlnm {
+    border: none;
+    background-color: #298fce;
 }
 
 
@@ -3041,7 +3063,7 @@ color: #25252b;
 }
 
 .__payps{
- font-family: AvenirLTStd-Black;
+ font-family: Raleway-Bold;
  font-size: 20px;
   font-weight: 900;
   letter-spacing: 0.4px;
@@ -3063,7 +3085,7 @@ color: #25252b;
 }
 
 .__paypp{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 0.86;
@@ -3071,7 +3093,7 @@ color: #25252b;
   color: #b5b5b5;
 }
 .__paypp1{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 14px;
   font-weight: 500;
   line-height: 0.86;
@@ -3080,7 +3102,7 @@ color: #25252b;
 }
 
 .__payd{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 14px;
   font-weight: 900;
   line-height: 0.86;
@@ -3101,7 +3123,7 @@ color: #25252b;
 }
 
 .__payvap1{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 24px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -3109,7 +3131,7 @@ color: #25252b;
 }
 
 .__payims{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -3117,7 +3139,7 @@ color: #25252b;
 }
 
 .__pay1ims{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 16px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -3125,7 +3147,7 @@ color: #25252b;
 }
 
 .__pay2ims{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 16px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -3140,7 +3162,7 @@ color: #25252b;
 }
 
 .__vguv{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 24px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -3164,7 +3186,7 @@ color: #25252b;
 }
 
 .__vgav{
-  font-family: AvenirLTStd-Book;
+  font-family: Raleway-Light;
   font-size: 16px;
   letter-spacing: 0.8px;
   color: #454545;
@@ -3253,7 +3275,7 @@ blockquote{
 }
 
 .__seart{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 24px;
   font-weight: 900;
   letter-spacing: 0.6px;
@@ -3266,7 +3288,7 @@ blockquote{
 }
 
 .__seart1{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 24px;
   font-weight: 900;
   letter-spacing: 0.6px;
@@ -3279,7 +3301,7 @@ blockquote{
 }
 
 .__sersee{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.6px;
@@ -3296,7 +3318,7 @@ blockquote{
 }
 
 .__ser p:nth-child(1){
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -3305,7 +3327,7 @@ blockquote{
 }
 
 .__ser p:nth-child(2){
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -3315,7 +3337,7 @@ blockquote{
 }
 
 .__ser p:nth-child(3){
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 18px;
   font-weight: 900;
   line-height: 1.44;
@@ -3332,7 +3354,7 @@ blockquote{
 }
 
 .__ser a{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -3370,7 +3392,7 @@ float: right;
 }
 
 .__seca{
-font-family: AvenirLTStd-Medium;
+font-family: Raleway-Medium;
 font-size: 30px;
   font-weight: 500;
   letter-spacing: 0.9px;
@@ -3385,7 +3407,7 @@ font-size: 30px;
 }
 
 .__serpbtn{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -3399,7 +3421,7 @@ font-size: 30px;
 }
 
 .__serm{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -3410,7 +3432,7 @@ font-size: 30px;
 }
 
 .__serm1{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -3451,7 +3473,7 @@ font-size: 30px;
 }
 
 .__scard p:nth-child(2) {
-    font-family: AvenirLTStd-Medium;
+    font-family: Raleway-Medium;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.4px;
@@ -3461,7 +3483,7 @@ font-size: 30px;
 }
 
 .__scard p:nth-child(3) {
-    font-family: AvenirLTStd-Medium;
+    font-family: Raleway-Medium;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.6px;
@@ -3471,14 +3493,14 @@ font-size: 30px;
 }
 
 .__sersa{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 18px;
   font-weight: 900;
   color: #1a72e6 !important;
 }
 
 .__seag{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -3486,7 +3508,7 @@ font-size: 30px;
 }
 
 .__sercb{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 24px;
   font-weight: 900;
   letter-spacing: 0.6px;
@@ -3494,7 +3516,7 @@ font-size: 30px;
 }
 
 .__sercb1{
-  font-family: AvenirLTStd-Book;
+  font-family: Raleway-Light;
   font-size: 14px;
   letter-spacing: 0.5px;
   color: #595959;
@@ -3580,15 +3602,16 @@ font-size: 30px;
 .check {
     display: block;
     position: relative;
-    padding-left: 25px;
+    padding-left: 20px;
     margin-bottom: 12px;
-    padding-right: 15px;
+    padding-right: 2px;
     cursor: pointer;
     font-size: 12px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    font-weight: 200;
 }
 
 /* Hide the browser's default checkbox */
@@ -3601,14 +3624,14 @@ font-size: 30px;
 /* Create a custom checkbox */
 .checkmark {
     position: absolute;
-    top: 3px;
+    top: 1px;
     left: 0;
     height: 18px;
     width: 18px;
     background-color: #fff ;
     border-color:#30355d;
     border-style:solid;
-    border-width:2px;
+    border-width:1px;
 }
 
 
@@ -3653,7 +3676,7 @@ font-size: 30px;
 }
 
 .__deaal{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 24px;
   font-weight: 900;
   letter-spacing: 0.6px;
@@ -3662,7 +3685,7 @@ font-size: 30px;
 }
 
 .__semdu{
-  font-family: AvenirLTStd-Medium;
+  font-family: Raleway-Medium;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -3701,7 +3724,7 @@ font-size: 30px;
 
 
 .__accordion1 {
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
     background-color: transparent;
     color: #323643;
     cursor: pointer;
@@ -3729,7 +3752,7 @@ font-size: 30px;
 }
 
 .panel {
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 13px;
   font-weight: 900;
   line-height: 1.63;
@@ -3768,7 +3791,7 @@ font-size: 30px;
 }
 
 .__visr{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
     font-size: 17px;
     font-weight: 900;
     line-height: 1.08;
@@ -3790,7 +3813,7 @@ font-size: 30px;
 }
 
 .__visrebtn {
-    font-family: AvenirLTStd-Medium;
+    font-family:Raleway-Medium;
     width: 229px;
     height: 45px;
     border-radius: 3px;
@@ -3849,6 +3872,7 @@ font-size: 30px;
 
 .__flimg img{
   width: 24px;
+  margin-top:-6px;
 }
 
 .__conal{
@@ -3856,7 +3880,7 @@ font-size: 30px;
 }
 
 .__cont{
-  font-family: AvenirLTStd-Black;
+  font-family: Raleway-Bold;
   font-size: 56px;
   font-weight: 900;
   letter-spacing: 0.9px;
@@ -3894,5 +3918,37 @@ font-size: 30px;
 }
 
 
+hr {
+    margin-top: 10px;
+    margin-bottom: 13px;
+  }
 
+.__serin {
+    padding: 21px 14px 0 147px;
+}
 
+.__seainn{
+  font-family: Raleway-Bold;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 31px 10px rgba(247, 247, 247, 0.5);
+  background-color: #ffffff;
+  border: solid 1px #333;
+  padding-left: 30px !important;
+}
+
+.__sercinbtn{
+      border-radius: 5px;
+    box-shadow: 0 0 31px 10px rgba(247, 247, 247, 0.5);
+    background-color: #ffffff;
+    border: solid 1px #333;
+    color: #333;
+    font-size: 20px;
+    padding: 11px 15px;
+    transition: all 0.4s ease-in;
+}
+
+.__sercinbtn:hover{
+  color: #1a72e6;
+  border: solid 1px #1a72e6;
+}
