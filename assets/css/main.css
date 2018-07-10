@@ -1444,14 +1444,14 @@ border-right:5px solid rgba(0,0,0,0);
   box-shadow: 0 2px 4px 0 rgba(232, 232, 232, 0.5);
 }
 
-.__navlm{
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: 1.1px;
-  color: #595959 !important;
-  /*font-family: Raleway-Medium;*/
-}
+.__navlm {
+    font-size: 13px;
+    font-weight: 600;
+    /*line-height: 1.25;*/
+    /* letter-spacing: 1.1px; */
+    color: #595959 !important;
+    /* font-family: Raleway-Medium; */
+  }
 
 .__navlmbtn{
   /*font-family: Raleway-Medium;*/

@@ -1390,6 +1390,11 @@
     padding: 4px 14px;
   }
 
+  .__sermr {
+    width: 100%;
+    margin-top: 10px;
+  }
+
   .__scard {
     width: 259px;
     margin-top: 10px;
@@ -1501,6 +1506,14 @@
 
   .__absm {
     font-size: 28px;
+  }
+
+  .__pr {
+    padding-right: 15px;
+  }
+
+  .__pl {
+    padding-left: 15px;
   }
 
 
