@@ -169,6 +169,13 @@ var appz = {
     $('#closebtn').click(function(){
         $('.leftbar').removeClass('biger');
     });
+    // dashboard for traveler
+    $('#openSidebar').click(function(){
+        $('.leftbart').addClass('biger');
+        });
+    $('#closebtn').click(function(){
+        $('.leftbart').removeClass('biger');
+    });
 
      // dashboard show and hide
     $('#openrightSidebars').click(function(){

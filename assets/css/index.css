@@ -66,6 +66,9 @@
   .leftbar {
   padding-top: 10%;
   }
+  .leftbart {
+  padding-top: 10%;
+  }
 
   .__dasepl span:nth-child(1) {
     padding: 14px 29px;
@@ -161,6 +164,11 @@
 
 @media screen and (max-width: 800px){
   .leftbar{
+    transform: translate(-300px);
+    top: 0%;
+  }
+
+  .leftbart{
     transform: translate(-300px);
     top: 0%;
   }
@@ -275,6 +283,11 @@
   }
 
   .leftbar{
+    transform: translate(-1000px);
+    top: 0%;
+  }
+
+  .leftbart{
     transform: translate(-1000px);
     top: 0%;
   }
