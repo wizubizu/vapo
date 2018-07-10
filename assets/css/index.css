@@ -519,6 +519,10 @@
     padding: 20px 0;
   }
 
+  .__overflow {
+    height: 356px;
+  }
+
 
 }
 
@@ -555,6 +559,10 @@
     width: 926px;
   }*/
 
+
+  .__overflow {
+    height: 356px;
+  }
 
 
 }
@@ -703,6 +711,10 @@
     font-size: 17px;
   }
 
+  .__overflow {
+    height: 356px;
+  }
+
   
 
 }
@@ -721,6 +733,10 @@
 
   .__md7 {
     padding: 10px;
+  }
+
+  .__overflow {
+    height: 356px;
   }
 }
 
@@ -960,6 +976,10 @@
 
   .__visadbtn {
     width: 163px;
+  }
+
+  .__overflow {
+    height: 356px;
   }
 
   
@@ -1514,6 +1534,10 @@
 
   .__pl {
     padding-left: 15px;
+  }
+
+  .__overflow {
+    height: 356px;
   }
 
 

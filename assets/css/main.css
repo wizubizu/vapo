@@ -4080,6 +4080,18 @@ hr {
     transform: scale(1.2);
 }
 
+.__overflow {
+    overflow-y: scroll;
+    overflow-x: hidden;
+     height: 460px; 
+     padding: 0 6px;
+}
+
+.__overflow::-webkit-scrollbar {
+    width: 2px;
+    /* background-color: #d6f4ff; */
+}
+
    
 
 /*end*/
