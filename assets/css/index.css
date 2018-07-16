@@ -747,6 +747,31 @@
     height: 289px;
   }
 
+  .__bidsov {
+    margin: 9% 10%;
+    width: 744px;
+  }
+
+  .__bids {
+    padding: 10px 10px;
+  }
+
+  .__bidsp {
+    font-size: 9px;
+  }
+
+  .__bids7 {
+    padding: 0px 7px;
+  }
+
+  .__bidsp1 {
+    font-size: 11px;
+  }
+
+  .__bids7 h2 {
+    font-size: 17px;
+  }
+
   
 
 }
@@ -770,6 +795,10 @@
   .__overflow {
     height: 356px;
   }
+
+  
+
+
 }
 
 
@@ -1066,6 +1095,14 @@
 
   .__conin p {
     font-size: 15px;
+  }
+
+  .__bidsov {
+    margin: 6% 0;
+  }
+
+  .__bids7 {
+    padding: 0 15px;
   }
 
   
@@ -1652,6 +1689,33 @@
 
   .__conta {
     font-size: 14px;
+  }
+
+  .__bids {
+    padding: 10px 7px;
+  }
+
+  .__bids7 {
+     padding: 0 15px; 
+     /*text-align: center;*/
+  }
+
+  .__bidsov {
+    margin: 0%;
+    width: 100%;
+  }
+
+  .__bidsimg img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .__nav-pills {
+    margin-top: 15%;
+  }
+
+  .__bidsp1 {
+    margin-top: 0px;
   }
 
 }
