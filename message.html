@@ -133,8 +133,12 @@
 								</p>
 
 								<p class="" >
-									<span><i class="far fa-handshake"></i></span>
-									<a href="quote.html">Bids <sub><span class="__dashnotif"><i class="fas fa-circle"></i></span></sub></a>
+									<span><i class="fas fa-gavel"></i></span>
+									<a href="bid.html">Bids <sub><span class="__dashnotif"><i class="fas fa-circle"></i></span></sub></a>
+								</p>
+								<p class="" >
+									<span><i class="icon icon-wallet"></i></span>
+									<a href="payment.html">Payment History</a>
 								</p>
 							</div>
 						</div>
@@ -205,6 +209,22 @@
 												</div>
 												<div class="col-md-3">
 													<p class="__msgp">10:10 AM</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="__msgd">
+											<div class="row">
+												<div class="col-md-2 col-xs-2">
+													<sub><span class="__msgnotif"><i class="fas fa-circle"></i></span></sub>
+													<span><img src="assets/img/newo.png" class="img-circle"></span>
+												</div>
+												<div class="col-md-7 col-xs-10 __md7">
+													<p>Františka Krteček</p>
+													<p>Ahoj. Prožijte s Kotlárem tento jedinečný...</p>
+												</div>
+												<div class="col-md-3">
+													<p class="__msgp">9:32 AM</p>
 												</div>
 											</div>
 										</div>
@@ -424,25 +444,71 @@
 											</li>
 										</ul>
 									</div>
-									<div class="text-bar">
+									<div class="__text-bar">
 										<form action="" method="POST" role="form">
 											<div class="input-group">
+												<div class="input-group-btn">
+													<div class="dropup">
+													    <span class="btn dropdown-toggle" type="button" data-toggle="dropdown"><i class="icon icon-plus"></i></span>
+													    <ul class="dropdown-menu">
+														    <li><a data-toggle="modal" href='#modal-id'>Send Budget</a></li>
+														    <li><a href="#" onclick="document.getElementById('file').click();">Select file to upload</a>
+															  	<div action="#" id="uploadForm">
+															    	<input type="file" name="file" id="file" onchange="window.alert('File successfully uploaded')">
+															  	</div>
+															</li>
+													    </ul>
+													</div>
+												</div>
 												<textarea  class="form-control __inputactiv" placeholder="Enter a message" rows="1"></textarea>
 
 												<div class="input-group-btn">
 					  								<div class="__pictureup">
-										                <img src="assets/img/attach.svg"
+					  									<button type="submit" class="btn __btnshow"><span><i class="icon icon-paper-plane"></i></span></button>
+										                <!-- <img src="assets/img/attach.svg"
 										                  class="picture_src" id="picture_previewup" alt="" >
-										                <input class="img_container" type="file" id="upload2" name="file">
+										                <input class="img_container" type="file" id="upload2" name="file"> -->
 
 										            </div>
 												</div>
 											</div>
+
+											 <!-- send budget modal -->
+													    <!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+													    <div class="modal fade" id="modal-id">
+													    	<div class="modal-dialog">
+													    		<div class="modal-content __modalcontent">
+													    			<!-- <div class="modal-header __donln">
+													    				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+													    				<h4 class="modal-title text-center">Send Budget</h4>
+													    			</div> -->
+													    			<div class="modal-body">
+													    				<form action="" method="POST" role="form">
+											    							<label>Send Budget</label>
+													    					<div class="form-group">
+													    						<input type="text" class="form-control" id="" placeholder="">
+													    					</div>
+													    					<div class="row">
+													    						<div class="col-md-8"></div>
+													    						<div class="col-md-4">
+													    							<button type="button" class="btn btn-primary pull-right" data-dismiss="modal">Send</button>
+													    						</div>
+													    					</div>
+													    				</form>
+													    			</div>
+													    			<!-- <div class="modal-footer __donln">
+													    				
+													    				
+													    			</div> -->
+													    		</div>
+													    	</div>
+													    </div>
+													    <!-- end -->
 										
 											<div class="row">
 												<div class="col-md-9 col-sm-8 col-xs-7"></div>
 												<div class="col-md-3 col-sm-4 col-xs-5">
-													<button type="submit" class="btn __btnshow">Sand</button>
+													<!-- <button type="submit" class="btn __btnshow">Sand</button> -->
 												</div>
 											</div>
 										</form>

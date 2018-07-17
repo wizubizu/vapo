@@ -2341,7 +2341,7 @@ font-size: 18px;
 
 
 .__logbg{
-  background-image: url(../img/sign.png);
+  background-image: url(../img/signbg.png);
    /*background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -2388,6 +2388,7 @@ font-size: 18px;
   letter-spacing: 0.4px;
   color: #454545;
   font-weight: 200 !important;
+  margin-bottom: 0;
 }
 
 .__loin{
@@ -2749,7 +2750,7 @@ tr img{
 .__msgpo{
   overflow-y: scroll;
   overflow-x: hidden;
-  height:495px;
+  height:533px;
 }
 .__msgpo::-webkit-scrollbar {
   width: 2px !important;
@@ -2864,7 +2865,7 @@ color: #25252b;
 }
 .chat-section{
   overflow-y:scroll;
-  height:404px;
+  height:457px;
 }
 .chat-section::-webkit-scrollbar {
   width: 2px !important;
@@ -2936,26 +2937,26 @@ color: #25252b;
 .third-section{
   border-top: 1px solid #EEEEEE;
 }
-.text-bar{
+.__text-bar{
   /*width: 590px;*/
   border-radius: 3px;
   /*margin-left:-15px;*/
   padding:0;
   /*border:1px solid #e1e1e1;*/
 }
-.text-bar button{
+.__text-bar button{
   /*font-family: Raleway-Medium;*/
-  font-size: 14px;
+  /*font-size: 14px;
   font-weight: bold;
   color: #ffffff;
   width: 114px;
   border-radius: 5px;
   background-color: #2a94d5;
   box-shadow: 0 2px 24px 0 rgba(72, 128, 255, 0.2);
-  padding:10px 0px;
+  padding:10px 0px;*/
   }
 
-.text-bar button:hover{
+.__text-bar button:hover{
   color: #ffffff;
 }
 .left-chat:before{
@@ -2988,12 +2989,12 @@ color: #25252b;
 }
 
 .__pictureup{
-  width: 40px;
-  height: 34px;
+  /*width: 40px;
+  height: 34px;*/
   /*position: relative;*/
-  cursor: pointer;
+  /*cursor: pointer;
   text-align: center;
-  border: 1px solid #979797;
+  border: 1px solid #979797;*/
 }
 
 .__pictureup img{
@@ -3013,9 +3014,31 @@ color: #25252b;
     width: 100%;
 }
 
+#uploadForm{
+  display: none !important;
+}
+
+.__modalcontent{
+  margin: 150px;
+}
+
+.__flagmenu{
+  min-width: 65px;
+}
+
 .__btnshow{
-  margin-top: 10px;
+  /*margin-top: 10px;*/
  display: none;   
+  background-color: #2a94d5;
+  color: #ffffff !important;
+    transition: all 0.4s ease-in;
+        border-radius: 0;
+}
+
+.__btnshow:hover{
+  background-color: transparent;
+    color: #2a94d5 !important;
+    border: 1px solid #2a94d5;   
 }
 /*chat end*/
 
@@ -4547,11 +4570,12 @@ a:focus, a:hover {
 .form-card{
     background: #fff;
     border: 1px solid #d3d3d373;
-    padding: 30px 20px;
+    padding: 30px 35px;
     border-radius: 5px;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
     position: relative;
-    top: 70px;
+        margin-top: 70px;
+    margin-bottom: 10px;
 }
 
 .main img {
@@ -4602,8 +4626,8 @@ a:focus, a:hover {
 }
 
 .hr-or {
-    background-color: #cdcdcd;
-    height: 1px;
+    background-color: #cdcdcd47;
+    /*height: 1px;*/
     margin-top: 0px !important;
     margin-bottom: 0px !important;
 }
@@ -4621,8 +4645,8 @@ a:focus, a:hover {
 
 .btn-submit-blue {
     color: #fff !important;
-    border-color: #0f59c7;
-    background-color: #2e6da4;
+    border-color: #f0842d;
+    background-color: #f0842d;
     padding-left: 30px;
     padding-right: 30px;
     transition: ease-out 0.5s;
