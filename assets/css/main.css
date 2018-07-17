@@ -1545,7 +1545,7 @@ border-right:5px solid rgba(0,0,0,0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*min-height: 634px;*/
+    min-height: 648px;
 }
 
 .__logo{
@@ -1693,6 +1693,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .__apimg{
   width: 500px;
+  margin-top: -58px;
 }
 
 .__navw{
@@ -2255,7 +2256,7 @@ font-family: Lato-Regular;
 font-size: 18px;
   font-weight: 900;
   letter-spacing: 2.7px;
-  color: #1a72e6;
+  color: #ffffff;
 }
 
 .__fotr{
@@ -2430,7 +2431,7 @@ font-size: 18px;
   letter-spacing: 0.4px;
   color: #f0842d !important ;
   transition: all 0.4s ease-in;
-  border-radius: 25px;
+  /*border-radius: 25px;*/
     text-align: center;
     padding: 8px 20px;
     margin-top: 10px;
@@ -4168,14 +4169,15 @@ hr {
   }
 
 .__serin {
-    padding: 84px 14px 29px 147px;
+      margin-top: -63px;
+    padding: 0 14px 29px 147px;
 }
 
 .__seainn{
   /*font-family: Raleway-Bold;*/
   height: 50px;
   border-radius: 5px;
-  box-shadow: 0 0 31px 10px rgba(247, 247, 247, 0.5);
+  /*box-shadow: 0 0 31px 10px rgba(247, 247, 247, 0.5);*/
   background-color: #ffffff;
   border: solid 1px #aba6a66e;
   padding-left: 30px !important;
@@ -4183,7 +4185,7 @@ hr {
 
 .__sercinbtn{
       border-radius: 5px;
-    box-shadow: 0 0 31px 10px rgba(247, 247, 247, 0.5);
+    /*box-shadow: 0 0 31px 10px rgba(247, 247, 247, 0.5);*/
     background-color: #ffffff;
     border: solid 1px #ece4e46e;
     color: #333;
@@ -4194,7 +4196,7 @@ hr {
 
 .__sercinbtn:hover{
   color: #1a72e6;
-  border: solid 1px #1a72e6;
+  /*border: solid 1px #1a72e6;*/
 }
 
 .__abo img{
