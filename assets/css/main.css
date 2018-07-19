@@ -1082,7 +1082,7 @@ color: #25252b;
 }
 
 .__nav-pills{
-  border: 1px solid #ececec;
+  /*border: 1px solid #ececec;*/
   padding-right: 0px;
   /*margin-top:10%;*/
 }
@@ -1094,13 +1094,83 @@ color: #25252b;
 }
 
 .__nav-pills li .a {
-    padding: 6px 0 0;
-    border: 1px solid #f0f0f0;
-    border-radius: 0px;
+  padding: 0px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  margin-top: 4px;
 }
 
 .__nav-pills>li+li {
     margin-top: 0px;
+}
+
+.__travbid{
+  border-left: 4px solid #2a94d5 !important;
+}
+
+.__travtbids {
+  padding: 5px 10px;
+}
+
+.__trabid{
+  background: #2a94d5;
+    padding: 4px;
+    border-radius: 2px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+}
+
+.__trabid1{
+  font-size: 13px;
+  color: #25252bc7;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.__trabidtime{
+  font-size: 12px;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: #2a94d5 !important;
+    margin-top: 5px;
+}
+
+
+.__travquote{
+  border-left: 4px solid #E31218 !important;
+}
+
+
+.__traquote{
+  background: #E31218;
+    padding: 4px;
+    border-radius: 2px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+}
+
+.__travdeall{
+  border-left: 4px solid #f0842d !important;
+}
+
+
+.__tradeall{
+  background: #f0842d;
+    padding: 4px;
+    border-radius: 2px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+}
+
+.__htt{
+  color: #25252b;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .__trvto{
