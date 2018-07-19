@@ -8,7 +8,7 @@ html {
 
 body {
   /*font-family: 'Lato', sans-serif;*/
-	font-family: 'avenir', sans-serif;
+	font-family: 'AvertaDemo-Regular', sans-serif;
 	font-size: 14px;
 	color: #222222;
 	font-weight: normal;
@@ -23,6 +23,12 @@ body {
   font-family: 'Lato-Regular';
   src: url('../../lato/Lato-Regular.ttf');
 }
+
+@font-face{
+  font-family: 'AvertaDemo-Regular';
+  src: url('../../AvertaDemo/AvertaDemo-Regular.otf');
+}
+
 /*@font-face{
   font-family: 'Raleway-Medium';
   src: url('../../raleway/Raleway-Medium.ttf');
@@ -361,6 +367,13 @@ a:focus, a:hover {
     /* margin-left: -11px; */
   }
 
+  .deleteBox .delete {
+  cursor: pointer;
+  color: #ffffff;
+  margin-top:10px;
+  float: right;
+}
+
 .leftbart p {
   /*font-family: Raleway-Medium;*/
   font-size: 14px;
@@ -372,7 +385,7 @@ a:focus, a:hover {
  /* margin-bottom: 10%;*/
   cursor: pointer;
   /*text-align: center;*/
-  line-height: 26px;
+  line-height: 23px;
 }
 .dashboard_name {
     padding: 2px;
@@ -749,7 +762,7 @@ i#closebtn {
   height: 40px;
   opacity: 0.6;
   border-radius: 5px;
-  box-shadow: 0 5px 45px 0 rgba(46, 104, 208, 0.1);
+  /*box-shadow: 0 5px 45px 0 rgba(46, 104, 208, 0.1);*/
   background-color: #ffffff;
   border: solid 1px #dadde8;
 }
@@ -757,7 +770,7 @@ i#closebtn {
 .__daimg img{
       width: 35px;
     height: 35px;
-    box-shadow: 0 5px 55px 0 rgba(46, 104, 208, 0.1);
+    /*box-shadow: 0 5px 55px 0 rgba(46, 104, 208, 0.1);*/
     border-radius: 50%;
 }
 
@@ -802,7 +815,7 @@ i#closebtn {
   color: #595959;
   margin: 1% 0 0 32px;
     width: 926px;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     /*border: solid 1px #e6e6e6;*/
     padding: 10px 20px 1px;
 }
@@ -976,7 +989,7 @@ input[type="file"] {
 
 
 .__bidsov {
-    margin: 2% 4%;
+    margin: -11px 4% 10px;
     /* width: 926px; */
 }
 
@@ -1107,7 +1120,7 @@ color: #25252b;
 }
 
 .__travbid{
-  border-left: 4px solid #2a94d5 !important;
+  border-left: 4px solid #1E88E5 !important;
 }
 
 .__travtbids {
@@ -1115,7 +1128,7 @@ color: #25252b;
 }
 
 .__trabid{
-  background: #2a94d5;
+  background: #1E88E5;
     padding: 4px;
     border-radius: 2px;
     color: #ffffff;
@@ -1154,12 +1167,12 @@ color: #25252b;
 }
 
 .__travdeall{
-  border-left: 4px solid #f0842d !important;
+  border-left: 4px solid #3BA9C4 !important;
 }
 
 
 .__tradeall{
-  background: #f0842d;
+  background: #3BA9C4;
     padding: 4px;
     border-radius: 2px;
     color: #ffffff;
@@ -1171,6 +1184,11 @@ color: #25252b;
   color: #25252b;
   margin-top: 10px;
   margin-bottom: 0;
+}
+
+.__htt img{
+  width: 14px;
+    margin-top: -6px;
 }
 
 .__trvto{
@@ -1214,8 +1232,13 @@ color: #25252b;
   font-weight: 900;
   line-height: 0.67;
   letter-spacing: 0.4px;
-  text-align: center;
+  /*text-align: center;*/
   color: #454545;
+}
+
+.__sendbtn{
+  text-align: center;
+  margin-top: 22px;
 }
 
 .__tabp1{
@@ -4210,7 +4233,7 @@ font-size: 30px;
 }
 
 .__conta{
-  font-family: Lato-Regular;
+  /*font-family: Lato-Regular;*/
   font-size: 18px;
   font-weight: 900;
   text-align: center;

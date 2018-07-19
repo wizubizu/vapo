@@ -607,6 +607,12 @@ var appz = {
     $(this).parents('tr').remove();
     });
 
+    $(function () {
+        $(".deleteBox .delete").click(function(){
+            $(this).parents(".deleteBox").animate({ opacity: "hide" }, "slow"); 
+        });
+    });
+
     
     // end
 
