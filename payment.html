@@ -34,7 +34,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
 </head>
-<body class="">
+<body class="__bodybg">
 	
 
 	<header>
@@ -107,31 +107,31 @@
 							<br><br>
 							<div class="">
 								<p class="" >
-									<span><i class="icon icon-grid"></i></span>
+									<span><i class="icon icon-grid"></i></span>&nbsp;&nbsp;
 									<a href="travel.html">Dashboard</a>
 								</p>
 								<p class="" >
-									<span><i class="icon icon-envelope"></i></span>
+									<span><i class="icon icon-envelope"></i></span>&nbsp;&nbsp;
 									<a href="message.html">Messages</a>
 								</p>
 								<p class="" >
-									<span><i class="icon icon-note"></i></span>
+									<span><i class="icon icon-note"></i></span>&nbsp;&nbsp;
 									<a href="profile.html">Profile</a>
 								</p>
 								<p class="" >
-									<span><i class="icon icon-user"></i></span>
+									<span><i class="icon icon-user"></i></span>&nbsp;&nbsp;
 									<a href="view_agent.html">View Employees</a>
 								</p>
 								<p class="" >
-									<span><i class="far fa-handshake"></i></span>
+									<span><i class="far fa-handshake"></i></span>&nbsp;&nbsp;
 									<a href="agency_dashboard.html">Deals <sub><span class="__dashnotif"><i class="fas fa-circle"></i></span></sub></a>
 								</p>
 								<p class="" >
-									<span><i class="fas fa-gavel"></i></span>
+									<span><i class="fas fa-gavel"></i></span>&nbsp;&nbsp;
 									<a href="bid.html">Bids <sub><span class="__dashnotif"><i class="fas fa-circle"></i></span></sub></a>
 								</p>
 								<p class="activedashboard" >
-									<span><i class="icon icon-wallet"></i></span>
+									<span><i class="icon icon-wallet"></i></span>&nbsp;&nbsp;
 									<a href="payment.html">Payment History</a>
 								</p>
 							</div>
@@ -140,64 +140,69 @@
 					
 					<div class="col-md-10">
 						<div class="__cardh">
-							<!-- <div class="row">
-								<div class="col-md-4 col-xs-4 col-xs-4">
+							<div class="row">
+								<div class="col-md-4 col-sm-4 col-xs-4">
 									<a href="travel.html"><div class="__pcard">
 										<div class="row">
-											<div class="col-md-6 col-sm-6">
+											<div class="col-md-4 col-sm-4">
 												<div class="__pcardin">
 													<img src="assets/img/honeymoon.svg">
 												</div>
 											</div>
-											<div class="col-md-6 col-sm-4">
+											<div class="col-md-8 col-sm-8">
 												<p class="__ptr">Travellers</p>
-												<p class="__ptr1">500</p>
+												<p class="__ptr1">66</p>
+												<p class="__ptr2">Total</p>
 											</div>
 										</div>
+										<hr>
 									</div></a>
 								</div>
-								<div class="col-md-4 col-xs-4 col-xs-4">
+								<div class="col-md-4 col-sm-4 col-xs-4">
 									<a href="payment.html"><div class="__pcard1">
 										<div class="row">
-											<div class="col-md-6 col-sm-6">
-												<div class="__pcardin">
+											<div class="col-md-4 col-sm-4">
+												<div class="__pcardin1">
 													<img src="assets/img/plane-tickets.svg">
 												</div>
 											</div>
-											<div class="col-md-6 col-sm-4">
+											<div class="col-md-8 col-sm-8">
 												<p class="__ptr">Payment</p>
-												<p class="__ptr1">500</p>
+												<p class="__ptr1">55</p>
+												<p class="__ptr2">Total</p>
 											</div>
 										</div>
+										<hr>
 									</div></a>
 								</div>
-								<div class="col-md-4 col-xs-4 col-xs-4">
+								<div class="col-md-4 col-sm-4 col-xs-4">
 									<a href="agent.html"><div class="__pcard2">
 										<div class="row">
-											<div class="col-md-6 col-sm-6">
-												<div class="__pcardin">
+											<div class="col-md-4 col-sm-4">
+												<div class="__pcardin2">
 													<img src="assets/img/employee.svg">
 												</div>
 											</div>
-											<div class="col-md-6 col-sm-4">
+											<div class="col-md-8 col-sm-8">
 												<p class="__ptr">My Agents</p>
-												<p class="__ptr1">500</p>
+												<p class="__ptr1">44</p>
+												<p class="__ptr2">Total</p>
 											</div>
 										</div>
+										<hr>
 									</div></a>
 								</div>
-							</div><br> -->
+							</div><br>
 
 							<div class="__ptable">
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-md-8 col-sm-8">
 										<p class="__ptp">Payment History</p>
 									</div>
-									<div class="col-md-6">
-										<!-- <p class="__ptp1"><a href="" >See All</a></p> -->
+									<div class="col-md-4 col-sm-4">
+										<input type="search" name="" id="input" class="form-control" value=""  placeholder="Search">
 									</div>
 								</div>
-
 								<div class="__ttab">
 
 									
@@ -207,10 +212,12 @@
 												<thead>
 													<tr>
 														<th class=""></th>
-														<th class=""> Name</th>
+														<th class="">Full Name</th>
 														<th class="">Amount</th>
+														<th class="">Email Address</th>
 														<th class="">Date</th>
 														<th class="">Time</th>
+														<th class="">Action</th>
 													</tr>
 												</thead>
 
@@ -219,100 +226,120 @@
 														<td class="">
 										              		<img src="assets/img/newo.png" class="img-circle"> 
 														</td>
-														<td class="">Abimbola Ambode</td>
-										              	<td class="">N1000000</td>
-										              	<td class="">30/06/2018</td>
-										              	<td class="">10:45 am</td>
+														<td class="__td">Abimbola Ambode</td>
+										              	<td class="__td">N1000000</td>
+										              	<td class="__td">sirmac212@heritage.com</td>
+										              	<td class="__td">30/06/2018</td>
+										              	<td class="__td">10:45 am</td>
+										              	<td><button type="button" class="btn btn-large btn-block btn-danger delete">Delete</button></td>
 													</tr>
 
 													<tr class="">
 														<td class="">
 										              		<img src="assets/img/newo.png" class="img-circle"> 
 														</td>
-														<td class="">Abimbola Ambode</td>
-										              	<td class="">N1000000</td>
-										              	<td class="">30/06/2018</td>
-										              	<td class="">10:45 am</td>
-													</tr>
-													
-													<tr class="">
-														<td class="">
-										              		<img src="assets/img/newo.png" class="img-circle"> 
-														</td>
-														<td class="">Abimbola Ambode</td>
-										              	<td class="">N1000000</td>
-										              	<td class="">30/06/2018</td>
-										              	<td class="">10:45 am</td>
+														<td class="__td">Abimbola Ambode</td>
+										              	<td class="__td">N1000000</td>
+										              	<td class="__td">sirmac212@heritage.com</td>
+										              	<td class="__td">30/06/2018</td>
+										              	<td class="__td">10:45 am</td>
+										              	<td><button type="button" class="btn btn-large btn-block btn-danger delete">Delete</button></td>
 													</tr>
 
 													<tr class="">
 														<td class="">
 										              		<img src="assets/img/newo.png" class="img-circle"> 
 														</td>
-														<td class="">Abimbola Ambode</td>
-										              	<td class="">N1000000</td>
-										              	<td class="">30/06/2018</td>
-										              	<td class="">10:45 am</td>
+														<td class="__td">Abimbola Ambode</td>
+										              	<td class="__td">N1000000</td>
+										              	<td class="__td">sirmac212@heritage.com</td>
+										              	<td class="__td">30/06/2018</td>
+										              	<td class="__td">10:45 am</td>
+										              	<td><button type="button" class="btn btn-large btn-block btn-danger delete">Delete</button></td>
 													</tr>
 
 													<tr class="">
 														<td class="">
 										              		<img src="assets/img/newo.png" class="img-circle"> 
 														</td>
-														<td class="">Abimbola Ambode</td>
-										              	<td class="">N1000000</td>
-										              	<td class="">30/06/2018</td>
-										              	<td class="">10:45 am</td>
+														<td class="__td">Abimbola Ambode</td>
+										              	<td class="__td">N1000000</td>
+										              	<td class="__td">sirmac212@heritage.com</td>
+										              	<td class="__td">30/06/2018</td>
+										              	<td class="__td">10:45 am</td>
+										              	<td><button type="button" class="btn btn-large btn-block btn-danger delete">Delete</button></td>
 													</tr>
 
 													<tr class="">
 														<td class="">
 										              		<img src="assets/img/newo.png" class="img-circle"> 
 														</td>
-														<td class="">Abimbola Ambode</td>
-										              	<td class="">N1000000</td>
-										              	<td class="">30/06/2018</td>
-										              	<td class="">10:45 am</td>
+														<td class="__td">Abimbola Ambode</td>
+										              	<td class="__td">N1000000</td>
+										              	<td class="__td">sirmac212@heritage.com</td>
+										              	<td class="__td">30/06/2018</td>
+										              	<td class="__td">10:45 am</td>
+										              	<td><button type="button" class="btn btn-large btn-block btn-danger delete">Delete</button></td>
 													</tr>
 
 													<tr class="">
 														<td class="">
 										              		<img src="assets/img/newo.png" class="img-circle"> 
 														</td>
-														<td class="">Abimbola Ambode</td>
-										              	<td class="">N1000000</td>
-										              	<td class="">30/06/2018</td>
-										              	<td class="">10:45 am</td>
+														<td class="__td">Abimbola Ambode</td>
+										              	<td class="__td">N1000000</td>
+										              	<td class="__td">sirmac212@heritage.com</td>
+										              	<td class="__td">30/06/2018</td>
+										              	<td class="__td">10:45 am</td>
+										              	<td><button type="button" class="btn btn-large btn-block btn-danger delete">Delete</button></td>
 													</tr>
 
 													<tr class="">
 														<td class="">
 										              		<img src="assets/img/newo.png" class="img-circle"> 
 														</td>
-														<td class="">Abimbola Ambode</td>
-										              	<td class="">N1000000</td>
-										              	<td class="">30/06/2018</td>
-										              	<td class="">10:45 am</td>
+														<td class="__td">Abimbola Ambode</td>
+										              	<td class="__td">N1000000</td>
+										              	<td class="__td">sirmac212@heritage.com</td>
+										              	<td class="__td">30/06/2018</td>
+										              	<td class="__td">10:45 am</td>
+										              	<td><button type="button" class="btn btn-large btn-block btn-danger delete">Delete</button></td>
 													</tr>
 
 													<tr class="">
 														<td class="">
 										              		<img src="assets/img/newo.png" class="img-circle"> 
 														</td>
-														<td class="">Abimbola Ambode</td>
-										              	<td class="">N1000000</td>
-										              	<td class="">30/06/2018</td>
-										              	<td class="">10:45 am</td>
+														<td class="__td">Abimbola Ambode</td>
+										              	<td class="__td">N1000000</td>
+										              	<td class="__td">sirmac212@heritage.com</td>
+										              	<td class="__td">30/06/2018</td>
+										              	<td class="__td">10:45 am</td>
+										              	<td><button type="button" class="btn btn-large btn-block btn-danger delete">Delete</button></td>
 													</tr>
 
 													<tr class="">
 														<td class="">
 										              		<img src="assets/img/newo.png" class="img-circle"> 
 														</td>
-														<td class="">Abimbola Ambode</td>
-										              	<td class="">N1000000</td>
-										              	<td class="">30/06/2018</td>
-										              	<td class="">10:45 am</td>
+														<td class="__td">Abimbola Ambode</td>
+										              	<td class="__td">N1000000</td>
+										              	<td class="__td">sirmac212@heritage.com</td>
+										              	<td class="__td">30/06/2018</td>
+										              	<td class="__td">10:45 am</td>
+										              	<td><button type="button" class="btn btn-large btn-block btn-danger delete">Delete</button></td>
+													</tr>
+
+													<tr class="">
+														<td class="">
+										              		<img src="assets/img/newo.png" class="img-circle"> 
+														</td>
+														<td class="__td">Abimbola Ambode</td>
+										              	<td class="__td">N1000000</td>
+										              	<td class="__td">sirmac212@heritage.com</td>
+										              	<td class="__td">30/06/2018</td>
+										              	<td class="__td">10:45 am</td>
+										              	<td><button type="button" class="btn btn-large btn-block btn-danger delete">Delete</button></td>
 													</tr>
 												</tbody>
 											</div>

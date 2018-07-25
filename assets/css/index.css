@@ -226,7 +226,7 @@
   }
 
   .__dasempl {
-    margin: 45px 8px 9px 0px;
+    margin: 12px 8px 9px 0px;
     width: 736px;
   }
 
@@ -268,6 +268,10 @@
 
   .__travtbids {
     padding: 5px 1px;
+  }
+
+  .__pfin {
+    padding: 33px 30px;
   }
 
 
@@ -349,7 +353,7 @@
 
   .__dasepl {
     width: 100%;
-    margin: 20% 0 0 !important;
+    margin: 12% 0 0 !important;
   }
 
   .__dasepl1 {
@@ -399,12 +403,20 @@
   }
 
   .__pa {
-    margin: 45px 8px 9px 0px;
+    margin: 1px 8px 9px 0px;
     width: 100%;
   }
   .__addag {
-    margin: 45px 8px 9px 0px;
+    margin: 1px 8px 9px 0px;
     width: 100%;
+  }
+
+  .__pro1 {
+    font-size: 12px;
+  }
+
+  .__pro2 {
+    font-size: 12px;
   }
 
   .__pfin {
@@ -504,6 +516,27 @@
     margin-left: -36px;
   }
 
+  .__bidq {
+    margin-top: -5px;
+    margin-left: -6px;
+  }
+
+  .__bids img {
+    width: 30px;
+    height: 32px;
+    margin-top: -35px;
+  }
+
+  .__bids7 p:nth-child(1) {
+    font-size: 12px;
+  }
+
+  .__bids7 p:nth-child(2) {
+    font-size: 11px;
+  }
+  .__bidsp p {
+    font-size: 11px;
+  }
 
 
 
@@ -758,8 +791,30 @@
   }
 
   .__bidsov {
-    margin: 2% 5%;
-    width: 796px;
+    margin: 2% 9%;
+    width: 759px;
+  }
+
+  .__bidq {
+    margin-left: -4px;
+    margin-top: 5px;
+  }
+
+
+  .__rigbtn {
+   font-size: 12px;
+  }
+
+  .__bids7 p:nth-child(1) {
+    font-size: 12px;
+  }
+
+  .__bids7 p:nth-child(2) {
+    font-size: 11px;
+  }
+
+  .__bids img {
+    margin-top: -13px;
   }
 
   .__bids {
@@ -804,6 +859,11 @@
 
   .__overflow {
     height: 356px;
+  }
+
+  .__bidsov {
+    margin: 2% 10%;
+    width: 745px;
   }
 
   
@@ -960,6 +1020,14 @@
   }
 
   .__pcardin {
+    margin-left: 8px;
+  }
+
+  .__pcardin1 {
+    margin-left: 8px;
+  }
+
+  .__pcardin2 {
     margin-left: 8px;
   }
 
@@ -1388,15 +1456,39 @@
   }
 
   .__pcardin {
-    position: unset;
+    margin: 10px;
+    /*position: unset;
     margin-left: 0px;
     width: 100%;
     height: 67px;
-    padding: 6px 10px;
+    padding: 6px 10px;*/
+  }
+
+  .__pcardin1 {
+    margin: 10px;
+  }
+  .__pcardin2 {
+    margin: 10px;
+  }
+
+  .__ptr {
+    /* font-family: Raleway-Medium; */
+    font-size: 12px;
+    text-align: center;
+    padding: 0 10px;
   }
 
   .__ptr1 {
-    font-size: 25px;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 13px;
+  }
+
+  .__ptr2 {
+    /* font-family: Raleway-Medium; */
+    font-size: 10px;
+    text-align: center;
+    padding: 0 2px;
   }
 
   .__pta {
@@ -1423,7 +1515,7 @@
 
 
   .__dasempl {
-    margin: 45px 8px 9px 0;
+    margin: 12px 8px 9px 0;
     width: 100%;
   }
 
@@ -1739,6 +1831,8 @@
   .__modalcontent {
     margin: 0;
   }
+
+
 
 }
 
